@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/chenshaorong0118/jaychou-instagram-archive/schema/item.schema.json",
+  "title": "Jay Chou Instagram public archive item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "pk",
+    "item_type",
+    "published_at_utc",
+    "published_at_taipei",
+    "display_timezone",
+    "captured_at",
+    "source_url",
+    "caption",
+    "visible_text",
+    "shared_post",
+    "music",
+    "media"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "pk": { "type": "string", "pattern": "^[0-9]+$" },
+    "item_type": { "enum": ["post", "story"] },
+    "published_at_utc": { "type": "string", "format": "date-time" },
+    "published_at_taipei": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}\\+08:00$"
+    },
+    "display_timezone": { "const": "Asia/Taipei" },
+    "captured_at": { "type": "string", "format": "date-time" },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://www\\.instagram\\.com/"
+    },
+    "caption": { "type": ["string", "null"] },
+    "visible_text": { "type": ["string", "null"] },
+    "shared_post": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "shortcode", "owner_username", "archived_item_pk"],
+          "properties": {
+            "url": { "type": "string", "pattern": "^https://www\\.instagram\\.com/p/" },
+            "shortcode": { "type": ["string", "null"] },
+            "owner_username": { "type": ["string", "null"] },
+            "archived_item_pk": { "type": ["string", "null"], "pattern": "^[0-9]+$" }
+          }
+        }
+      ]
+    },
+    "music": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "artist", "start_offset_ms"],
+          "properties": {
+            "title": { "type": ["string", "null"] },
+            "artist": { "type": ["string", "null"] },
+            "start_offset_ms": { "type": ["integer", "null"], "minimum": 0 }
+          }
+        }
+      ]
+    },
+    "media": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["media_index", "presentation_kind", "assets"],
+        "properties": {
+          "media_index": { "type": "integer", "minimum": 1 },
+          "presentation_kind": { "enum": ["image", "video", "image_with_audio"] },
+          "assets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "role",
+                "filename",
+                "origin",
+                "mime_type",
+                "width",
+                "height",
+                "bytes",
+                "sha256"
+              ],
+              "properties": {
+                "role": { "enum": ["image", "primary_video", "playable_video", "video_poster"] },
+                "filename": { "type": "string", "pattern": "^[0-9]{2}-.+" },
+                "origin": { "enum": ["instagram", "derived_remux", "derived_render"] },
+                "mime_type": { "type": "string" },
+                "width": { "type": "integer", "minimum": 1 },
+                "height": { "type": "integer", "minimum": 1 },
+                "video_codec": { "type": "string" },
+                "audio_codec": { "type": "string" },
+                "duration_ms": { "type": "integer", "minimum": 1 },
+                "bytes": { "type": "integer", "minimum": 1 },
+                "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+                "derived_from": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
