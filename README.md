@@ -4,10 +4,10 @@
 
 An unofficial, verifiable public index of archived Posts and Stories pinned to immutable Git commits.
 
-- Posts: 6
-- Stories: 12
-- Media positions / 媒体位置: 39
-- Date range / 时间范围: 2026-07-14T16:16:53+08:00 — 2026-07-23T11:09:40+08:00
+- Posts: 11
+- Stories: 46
+- Media positions / 媒体位置: 85
+- Date range / 时间范围: 2026-07-04T23:08:41+08:00 — 2026-07-23T11:09:40+08:00
 
 ## 最近条目 / Latest items
 
@@ -25,7 +25,7 @@ An unofficial, verifiable public index of archived Posts and Stories pinned to i
 
 ## 媒体分库 / Media shards
 
-- [chenshaorong0118/jaychou-instagram-archive-media-0001](https://github.com/chenshaorong0118/jaychou-instagram-archive-media-0001) · 18 items · 47293558 bytes · active / 使用中
+- [chenshaorong0118/jaychou-instagram-archive-media-0001](https://github.com/chenshaorong0118/jaychou-instagram-archive-media-0001) · 57 items · 98108650 bytes · active / 使用中
 
 ## 验证 / Verification
 
