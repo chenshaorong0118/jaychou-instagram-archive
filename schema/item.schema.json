@@ -12,7 +12,6 @@
     "published_at_taipei",
     "display_timezone",
     "captured_at",
-    "source_url",
     "caption",
     "visible_text",
     "shared_post",
@@ -30,10 +29,6 @@
     },
     "display_timezone": { "const": "Asia/Taipei" },
     "captured_at": { "type": "string", "format": "date-time" },
-    "source_url": {
-      "type": "string",
-      "pattern": "^https://www\\.instagram\\.com/"
-    },
     "caption": { "type": ["string", "null"] },
     "visible_text": { "type": ["string", "null"] },
     "shared_post": {

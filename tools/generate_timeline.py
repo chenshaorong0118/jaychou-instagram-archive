@@ -139,7 +139,6 @@ def render(month: str, rows: list[tuple[dict, dict]]) -> str:
             output.append("")
         output.extend(
             [
-                f"[Instagram 原始链接 / Source]({item['source_url']}) · "
                 f"[归档目录 / Archive]({directory_url(item)})",
                 "",
                 f"PK: `{item['pk']}`",

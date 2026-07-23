@@ -43,8 +43,8 @@ def verify_items(items: list[dict]) -> None:
             fail(f"invalid media commit: {item.get('pk')}")
         if not PATH_RE.fullmatch(str(item.get("path"))):
             fail(f"invalid media path: {item.get('pk')}")
-        if not str(item.get("source_url", "")).startswith("https://www.instagram.com/"):
-            fail(f"invalid source URL: {item.get('pk')}")
+        if "source_url" in item:
+            fail(f"source_url must not be public: {item.get('pk')}")
 
 
 def verify_shards(root: Path) -> list[dict]:
