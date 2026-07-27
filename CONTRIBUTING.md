@@ -4,15 +4,15 @@
 
 Corrections to schemas, verifiers, timeline generators, and documentation are welcome. Do not submit cookies, tokens, raw API responses, logs, local databases, signed CDN URLs, permission records, or other sensitive material.
 
-媒体或元数据修正必须：
+本项目不接受通过 Issue 或 Pull Request 提交的媒体、录屏、截屏、无 Instagram
+PK 的内容或补索引请求。公开媒体只由维护者本地的规范采集与发布流程写入。
 
-Media or metadata corrections must:
+This project does not accept media, screen recordings, screenshots, content without
+an Instagram PK, or index-backfill requests through issues or pull requests. Public
+media is written only by the maintainer's canonical local collection and publication
+workflow.
 
-1. 指明条目 PK 和固定的媒体 commit / identify the item PK and pinned media commit;
-2. 说明可验证的依据 / describe the verifiable basis;
-3. 保留原始 caption、visible text、用户名和音乐标题，不做机器翻译 / preserve original captions, visible text, usernames, and music titles without machine translation;
-4. 通过 `python3 tools/verify_index.py .` 和 `python3 tools/generate_timeline.py . --check`。
-
-媒体再分发资格由发布者负责确认；不要在公开 Issue 或 PR 中上传敏感授权材料。
-
-Publishers are responsible for confirming the basis for media redistribution. Do not upload sensitive permission evidence to a public issue or pull request.
+代码、Schema、时间线或文档修改应通过
+`python3 tools/verify_index.py .` 和
+`python3 tools/generate_timeline.py . --check`。不要在公开 Issue 或 PR 中上传
+敏感授权材料。

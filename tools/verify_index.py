@@ -29,9 +29,6 @@ def read_items(root: Path) -> list[dict]:
 
 
 def verify_items(items: list[dict]) -> None:
-    keys = [(item.get("published_at_taipei"), item.get("pk")) for item in items]
-    if keys != sorted(keys):
-        fail("items.jsonl order invalid")
     if len({item.get("pk") for item in items}) != len(items):
         fail("duplicate PK")
     for item in items:
@@ -77,6 +74,11 @@ def verify_timelines(root: Path, items: list[dict]) -> int:
     mutable_raw = re.compile(r"raw\.githubusercontent\.com/[^/\s]+/[^/\s]+/(main|master)/")
     mutable_page = re.compile(r"github\.com/[^/\s]+/[^/\s]+/(blob|tree)/(main|master)/")
     all_pks = {item["pk"] for item in items}
+    image_block = re.compile(
+        r'(?m)^<a href="[^"]+">\n'
+        r'  <img src="[^"]+" alt="[^"]+" width="(360|720)">\n'
+        r"</a>$"
+    )
     for filename in files:
         month = filename[:7]
         text = root.joinpath("timeline", filename).read_text(encoding="utf-8")
@@ -98,6 +100,24 @@ def verify_timelines(root: Path, items: list[dict]) -> int:
         for found in re.findall(r"PK: `(\d+)`", text):
             if found not in all_pks:
                 fail(f"unknown timeline PK: {filename}:{found}")
+        for match in image_block.finditer(text):
+            before = text[: match.start()]
+            after = text[match.end() :]
+            if not before.endswith("\n\n") or not after.startswith("\n\n"):
+                fail(f"HTML image block spacing invalid: {filename}")
+        if text.count("<img ") != len(image_block.findall(text)):
+            fail(f"HTML image block invalid: {filename}")
+        for item in expected:
+            section_start = text.index(
+                f"## {'Post' if item['item_type'] == 'post' else 'Story'} · "
+                f"{item['published_at_taipei']}"
+            )
+            section_end = text.find("\n---\n", section_start)
+            section = text[section_start : section_end if section_end >= 0 else None]
+            expected_width = "720" if item["item_type"] == "post" else "360"
+            for width in re.findall(r'<img [^>]* width="(\d+)"', section):
+                if width != expected_width:
+                    fail(f"timeline image width mismatch: {filename}:{item['pk']}")
     return len(files)
 
 

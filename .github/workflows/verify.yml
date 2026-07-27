@@ -14,5 +14,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify index and fixed-commit timelines
         run: |
+          python3 -m unittest discover -s tests -q
           python3 tools/verify_index.py .
           python3 tools/generate_timeline.py . --check
