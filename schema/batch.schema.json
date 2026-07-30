@@ -61,13 +61,16 @@
         "assets"
       ],
       "properties": {
-        "pk": { "type": "string", "pattern": "^[0-9]+$" },
+        "pk": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
+        },
         "item_type": { "enum": ["post", "story"] },
         "published_at_utc": { "type": "string", "format": "date-time" },
         "published_at_taipei": { "type": "string", "format": "date-time" },
         "path": {
           "type": "string",
-          "pattern": "^(posts|stories)/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]{8}T[0-9]{6}\\+0800_[0-9]+$"
+          "pattern": "^(posts|stories)/[0-9]{4}/[0-9]{2}/[0-9]{2}/[0-9]{8}T[0-9]{6}\\+0800_[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
         },
         "media_count": { "type": "integer", "minimum": 1 },
         "has_image": { "type": "boolean" },

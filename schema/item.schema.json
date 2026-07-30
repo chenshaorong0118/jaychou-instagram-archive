@@ -23,7 +23,10 @@
   ],
   "properties": {
     "schema_version": { "const": 1 },
-    "pk": { "type": "string", "pattern": "^[0-9]+$" },
+    "pk": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
+    },
     "item_type": { "enum": ["post", "story"] },
     "published_at_utc": { "type": "string", "format": "date-time" },
     "published_at_taipei": {
@@ -45,7 +48,10 @@
             "url": { "type": "string", "pattern": "^https://www\\.instagram\\.com/p/" },
             "shortcode": { "type": ["string", "null"] },
             "owner_username": { "type": ["string", "null"] },
-            "archived_item_pk": { "type": ["string", "null"], "pattern": "^[0-9]+$" }
+            "archived_item_pk": {
+              "type": ["string", "null"],
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
+            }
           }
         }
       ]

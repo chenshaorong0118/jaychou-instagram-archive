@@ -15,7 +15,8 @@ from opencc import OpenCC
 COMMIT_RE = re.compile(r"^[a-f0-9]{40}$")
 REPOSITORY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 ENTRY_RE = re.compile(
-    r"^(posts|stories)/\d{4}/\d{2}/\d{2}/\d{8}T\d{6}\+0800_\d+$"
+    r"^(posts|stories)/\d{4}/\d{2}/\d{2}/"
+    r"\d{8}T\d{6}\+0800_[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
 )
 SHA256_RE = re.compile(r"^[a-f0-9]{64}$")
 WEBP_RE = re.compile(b"^RIFF....WEBP", re.DOTALL)
