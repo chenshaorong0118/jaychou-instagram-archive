@@ -1,2 +1,6 @@
 __pycache__/
 *.py[cod]
+dist/
+node_modules/
+.playwright-cli/
+output/playwright/

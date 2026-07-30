@@ -16,6 +16,9 @@
     "visible_text",
     "shared_post",
     "music",
+    "has_image",
+    "has_video",
+    "has_audio",
     "media"
   ],
   "properties": {
@@ -62,6 +65,9 @@
         }
       ]
     },
+    "has_image": { "type": "boolean" },
+    "has_video": { "type": "boolean" },
+    "has_audio": { "type": "boolean" },
     "media": {
       "type": "array",
       "minItems": 1,
@@ -89,9 +95,9 @@
                 "sha256"
               ],
               "properties": {
-                "role": { "enum": ["image", "primary_video", "playable_video", "video_poster"] },
+                "role": { "enum": ["image", "primary_video", "playable_video", "video_poster", "thumbnail"] },
                 "filename": { "type": "string", "pattern": "^[0-9]{2}-.+" },
-                "origin": { "enum": ["instagram", "derived_remux", "derived_render"] },
+                "origin": { "enum": ["instagram", "derived_remux", "derived_render", "derived_thumbnail"] },
                 "mime_type": { "type": "string" },
                 "width": { "type": "integer", "minimum": 1 },
                 "height": { "type": "integer", "minimum": 1 },

@@ -1,0 +1,19 @@
+{
+  "name": "jaychou-instagram-archive-gallery",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build && node site/copy-index.mjs",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fuse.js": "7.5.0",
+    "opencc-js": "1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "typescript": "7.0.2",
+    "vite": "8.1.5"
+  }
+}

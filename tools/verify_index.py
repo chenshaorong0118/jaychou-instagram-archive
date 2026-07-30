@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the public cross-repository index without third-party packages."""
+"""Verify deterministic public indexes without accessing raw media metadata."""
 
 from __future__ import annotations
 
@@ -7,6 +7,11 @@ import json
 import re
 import sys
 from pathlib import Path
+from typing import Any
+
+from opencc import OpenCC
+
+from archive_index import normalize_search_text
 
 
 COMMIT_RE = re.compile(r"^[a-f0-9]{40}$")
@@ -14,131 +19,205 @@ REPOSITORY_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 PATH_RE = re.compile(
     r"^(posts|stories)/\d{4}/\d{2}/\d{2}/\d{8}T\d{6}\+0800_\d+$"
 )
+UUID_RE = re.compile(
+    r"^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-"
+    r"[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+)
+FORBIDDEN_KEYS = {
+    "source_url",
+    "cookie",
+    "cookies",
+    "headers",
+    "authorization",
+    "absolute_path",
+    "local_dir",
+    "run_id",
+    "request",
+    "response",
+}
 
 
 def fail(message: str) -> None:
     raise ValueError(message)
 
 
-def read_items(root: Path) -> list[dict]:
+def read_items(root: Path) -> list[dict[str, Any]]:
     return [
         json.loads(line)
-        for line in root.joinpath("index/items.jsonl").read_text(encoding="utf-8").splitlines()
+        for line in root.joinpath("index/items.jsonl")
+        .read_text(encoding="utf-8")
+        .splitlines()
         if line
     ]
 
 
-def verify_items(items: list[dict]) -> None:
-    if len({item.get("pk") for item in items}) != len(items):
+def verify_items(items: list[dict[str, Any]]) -> None:
+    if len({str(item.get("pk")) for item in items}) != len(items):
         fail("duplicate PK")
+    keys = [
+        (str(item.get("published_at_utc")), str(item.get("pk")))
+        for item in items
+    ]
+    if keys != sorted(keys):
+        fail("items.jsonl is not deterministically sorted")
     for item in items:
+        pk = str(item.get("pk"))
         if item.get("item_type") not in {"post", "story"}:
-            fail(f"invalid item_type: {item.get('pk')}")
+            fail(f"invalid item_type: {pk}")
         if not REPOSITORY_RE.fullmatch(str(item.get("repository"))):
-            fail(f"invalid repository: {item.get('pk')}")
+            fail(f"invalid repository: {pk}")
         if not COMMIT_RE.fullmatch(str(item.get("media_commit"))):
-            fail(f"invalid media commit: {item.get('pk')}")
+            fail(f"invalid media commit: {pk}")
+        if not COMMIT_RE.fullmatch(str(item.get("thumbnail_commit"))):
+            fail(f"invalid thumbnail commit: {pk}")
         if not PATH_RE.fullmatch(str(item.get("path"))):
-            fail(f"invalid media path: {item.get('pk')}")
-        if "source_url" in item:
-            fail(f"source_url must not be public: {item.get('pk')}")
+            fail(f"invalid media path: {pk}")
+        if not str(item.get("thumbnail_path", "")).endswith(".webp"):
+            fail(f"thumbnail path missing: {pk}")
+        if item.get("metadata_shard") != (
+            f"index/metadata/{str(item.get('published_at_taipei'))[:7]}.json"
+        ):
+            fail(f"metadata shard mismatch: {pk}")
+        for field in ("has_image", "has_video", "has_audio"):
+            if not isinstance(item.get(field), bool):
+                fail(f"missing media flag: {pk}:{field}")
 
 
-def verify_shards(root: Path) -> list[dict]:
-    shards = json.loads(root.joinpath("index/shards.json").read_text(encoding="utf-8"))
-    if not isinstance(shards, list):
-        fail("shards.json must be an array")
-    ids: set[str] = set()
-    for shard in shards:
-        shard_id = shard.get("id")
-        if not re.fullmatch(r"media-\d{4}", str(shard_id)) or shard_id in ids:
-            fail(f"invalid/duplicate shard id: {shard_id}")
-        ids.add(shard_id)
-        if not REPOSITORY_RE.fullmatch(str(shard.get("repository"))):
-            fail(f"invalid shard repository: {shard_id}")
-        if shard.get("sealed") and not COMMIT_RE.fullmatch(str(shard.get("sealed_commit"))):
-            fail(f"sealed commit missing: {shard_id}")
-        if not shard.get("sealed") and shard.get("sealed_commit") is not None:
-            fail(f"active shard has sealed commit: {shard_id}")
-    return shards
+def _walk_keys(value: Any):
+    if isinstance(value, dict):
+        for key, child in value.items():
+            yield str(key).casefold()
+            yield from _walk_keys(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from _walk_keys(child)
 
 
-def verify_timelines(root: Path, items: list[dict]) -> int:
-    months: dict[str, list[dict]] = {}
-    for item in items:
-        months.setdefault(item["published_at_taipei"][:7], []).append(item)
-    files = sorted(path.name for path in root.joinpath("timeline").glob("*.md"))
-    expected_files = [f"{month}.md" for month in sorted(months)]
-    if files != expected_files:
-        fail("timeline month files mismatch")
-    mutable_raw = re.compile(r"raw\.githubusercontent\.com/[^/\s]+/[^/\s]+/(main|master)/")
-    mutable_page = re.compile(r"github\.com/[^/\s]+/[^/\s]+/(blob|tree)/(main|master)/")
-    all_pks = {item["pk"] for item in items}
-    image_block = re.compile(
-        r'(?m)^<a href="[^"]+">\n'
-        r'  <img src="[^"]+" alt="[^"]+" width="(360|720)">\n'
-        r"</a>$"
+def verify_metadata(root: Path, items: list[dict[str, Any]]) -> dict[str, dict]:
+    expected_months = sorted(
+        {str(item["published_at_taipei"])[:7] for item in items}
     )
-    for filename in files:
-        month = filename[:7]
-        text = root.joinpath("timeline", filename).read_text(encoding="utf-8")
-        if mutable_raw.search(text) or mutable_page.search(text):
-            fail(f"mutable branch URL: {filename}")
-        expected = sorted(
-            months[month],
-            key=lambda item: (item["published_at_taipei"], item["pk"]),
-            reverse=True,
-        )
-        headings = re.findall(r"^## (?:Post|Story) · (.+)$", text, re.MULTILINE)
-        if headings != [item["published_at_taipei"] for item in expected]:
-            fail(f"timeline order mismatch: {filename}")
-        for item in expected:
-            if text.count(f"PK: `{item['pk']}`") != 1:
-                fail(f"timeline PK mismatch: {filename}:{item['pk']}")
-            if item["media_commit"] not in text:
-                fail(f"timeline commit missing: {filename}:{item['pk']}")
-        for found in re.findall(r"PK: `(\d+)`", text):
-            if found not in all_pks:
-                fail(f"unknown timeline PK: {filename}:{found}")
-        for match in image_block.finditer(text):
-            before = text[: match.start()]
-            after = text[match.end() :]
-            if not before.endswith("\n\n") or not after.startswith("\n\n"):
-                fail(f"HTML image block spacing invalid: {filename}")
-        if text.count("<img ") != len(image_block.findall(text)):
-            fail(f"HTML image block invalid: {filename}")
-        for item in expected:
-            section_start = text.index(
-                f"## {'Post' if item['item_type'] == 'post' else 'Story'} · "
-                f"{item['published_at_taipei']}"
+    actual_files = sorted(
+        path.name for path in root.joinpath("index/metadata").glob("*.json")
+    )
+    if actual_files != [f"{month}.json" for month in expected_months]:
+        fail("metadata shard file set mismatch")
+    by_pk: dict[str, dict] = {}
+    expected_pks = {str(item["pk"]) for item in items}
+    for month in expected_months:
+        payload = json.loads(
+            root.joinpath("index/metadata", f"{month}.json").read_text(
+                encoding="utf-8"
             )
-            section_end = text.find("\n---\n", section_start)
-            section = text[section_start : section_end if section_end >= 0 else None]
-            expected_width = "720" if item["item_type"] == "post" else "360"
-            for width in re.findall(r'<img [^>]* width="(\d+)"', section):
-                if width != expected_width:
-                    fail(f"timeline image width mismatch: {filename}:{item['pk']}")
-    return len(files)
+        )
+        if payload.get("schema_version") != 1 or payload.get("year_month") != month:
+            fail(f"metadata shard header mismatch: {month}")
+        rows = payload.get("items")
+        if not isinstance(rows, dict):
+            fail(f"metadata shard items invalid: {month}")
+        for pk, metadata in rows.items():
+            if pk in by_pk or str(metadata.get("pk")) != pk:
+                fail(f"metadata PK duplicate/mismatch: {pk}")
+            forbidden = FORBIDDEN_KEYS.intersection(_walk_keys(metadata))
+            if forbidden:
+                fail(f"forbidden metadata key: {pk}:{sorted(forbidden)[0]}")
+            if str(metadata.get("published_at_taipei", ""))[:7] != month:
+                fail(f"metadata month mismatch: {pk}")
+            for field in ("has_image", "has_video", "has_audio"):
+                if not isinstance(metadata.get(field), bool):
+                    fail(f"metadata media flag missing: {pk}:{field}")
+            by_pk[pk] = metadata
+    if set(by_pk) != expected_pks:
+        fail("metadata PK coverage mismatch")
+    return by_pk
 
 
-def verify_readme(root: Path, items: list[dict]) -> None:
-    readme = root.joinpath("README.md").read_text(encoding="utf-8")
-    months = sorted({item["published_at_taipei"][:7] for item in items})
-    for month in months:
-        if f"timeline/{month}.md" not in readme:
-            fail(f"README month missing: {month}")
+def verify_search(
+    root: Path,
+    items: list[dict[str, Any]],
+    metadata: dict[str, dict],
+) -> None:
+    payload = json.loads(
+        root.joinpath("index/search-items.json").read_text(encoding="utf-8")
+    )
+    if payload.get("schema_version") != 1 or not isinstance(
+        payload.get("items"), list
+    ):
+        fail("search index header invalid")
+    rows = payload["items"]
+    if [str(row.get("pk")) for row in rows] != [str(item["pk"]) for item in items]:
+        fail("search item order/coverage mismatch")
+    converter = OpenCC("t2s")
+    for item, row in zip(items, rows, strict=True):
+        pk = str(item["pk"])
+        source = metadata[pk]
+        expected_text = normalize_search_text(
+            "\n".join(
+                value
+                for value in (
+                    source.get("caption"),
+                    source.get("visible_text"),
+                    pk,
+                )
+                if isinstance(value, str) and value
+            ),
+            converter,
+        )
+        expected = {
+            "pk": pk,
+            "published_at_taipei": item["published_at_taipei"],
+            "year_month": str(item["published_at_taipei"])[:7],
+            "item_type": item["item_type"],
+            "caption": source.get("caption"),
+            "media_count": item["media_count"],
+            "has_image": item["has_image"],
+            "has_video": item["has_video"],
+            "has_audio": item["has_audio"],
+            "search_text_simplified": expected_text,
+        }
+        if row != expected:
+            fail(f"search row mismatch: {pk}")
+
+
+def verify_shards(root: Path, item_count: int) -> None:
+    shards = json.loads(root.joinpath("index/shards.json").read_text(encoding="utf-8"))
+    if not isinstance(shards, list) or not shards:
+        fail("shards.json must be a non-empty array")
+    if sum(int(shard.get("item_count") or 0) for shard in shards) != item_count:
+        fail("shard item count mismatch")
+
+
+def verify_receipts(root: Path) -> None:
+    for status, directory in (("processed", "processed"), ("rejected", "rejected")):
+        for path in root.joinpath(directory).glob("*/*/*.json"):
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            if (
+                payload.get("schema_version") != 1
+                or payload.get("status") != status
+                or payload.get("batch_id") != path.stem
+                or not UUID_RE.fullmatch(path.stem)
+            ):
+                fail(f"invalid {status} receipt: {path}")
 
 
 def main() -> int:
     root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
     items = read_items(root)
     verify_items(items)
-    shards = verify_shards(root)
-    timelines = verify_timelines(root, items)
-    verify_readme(root, items)
+    metadata = verify_metadata(root, items)
+    verify_search(root, items, metadata)
+    verify_shards(root, len(items))
+    verify_receipts(root)
     print(
         json.dumps(
-            {"ok": True, "items": len(items), "shards": len(shards), "timelines": timelines}
+            {
+                "ok": True,
+                "items": len(items),
+                "metadata_shards": len(
+                    list(root.joinpath("index/metadata").glob("*.json"))
+                ),
+                "search_items": len(items),
+            }
         )
     )
     return 0
