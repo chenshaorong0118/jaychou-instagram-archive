@@ -726,6 +726,108 @@
       "thumbnail_commit": "07b98e2f29ff1d8d2efd955d5beee42bf56bbf87",
       "visible_text": null
     },
+    "3937596689823589459": {
+      "caption": null,
+      "captured_at": "2026-07-10T07:36:27Z",
+      "display_timezone": "Asia/Taipei",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 669230,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "origin": "instagram",
+              "role": "image",
+              "sha256": "02dd7bfca57e711f2d8cb174af13eb4392fcebf424bc58f3a9fc281d651e1b0d",
+              "width": 1320
+            },
+            {
+              "bytes": 50584,
+              "derived_from": [
+                "02dd7bfca57e711f2d8cb174af13eb4392fcebf424bc58f3a9fc281d651e1b0d"
+              ],
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "origin": "derived_thumbnail",
+              "role": "thumbnail",
+              "sha256": "ae39bb8ba1df96597c895529468232133dd3f48c656348b5f3e88bbc6ebed4bd",
+              "width": 360
+            }
+          ],
+          "media_index": 1,
+          "presentation_kind": "image"
+        }
+      ],
+      "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "music": null,
+      "path": "stories/2026/07/10/20260710T013627+0800_3937596689823589459",
+      "pk": "3937596689823589459",
+      "published_at_taipei": "2026-07-10T01:36:27+08:00",
+      "published_at_utc": "2026-07-09T17:36:27Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 1,
+      "shared_post": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "visible_text": null
+    },
+    "3937601301887606594": {
+      "caption": null,
+      "captured_at": "2026-07-10T07:43:55Z",
+      "display_timezone": "Asia/Taipei",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 627649,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "origin": "instagram",
+              "role": "image",
+              "sha256": "765c260d1b9379d109d030b371418f195d03b297b8021d5edf34076ef119984e",
+              "width": 1320
+            },
+            {
+              "bytes": 39654,
+              "derived_from": [
+                "765c260d1b9379d109d030b371418f195d03b297b8021d5edf34076ef119984e"
+              ],
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "origin": "derived_thumbnail",
+              "role": "thumbnail",
+              "sha256": "abd6dcdf21375f6be305de1bd01afca399d87a4fe3e52276635794e5c2baef84",
+              "width": 360
+            }
+          ],
+          "media_index": 1,
+          "presentation_kind": "image"
+        }
+      ],
+      "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "music": null,
+      "path": "stories/2026/07/10/20260710T014355+0800_3937601301887606594",
+      "pk": "3937601301887606594",
+      "published_at_taipei": "2026-07-10T01:43:55+08:00",
+      "published_at_utc": "2026-07-09T17:43:55Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 1,
+      "shared_post": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "visible_text": null
+    },
     "3938928322411029496": {
       "caption": "Happy to be back at Wimbledon once again. Even though Roger and I didn’t get to play a doubles exhibition match this time, it was still wonderful to see my old friend.",
       "captured_at": "2026-07-23T13:34:05Z",
@@ -4888,6 +4990,57 @@
       "schema_version": 1,
       "shared_post": null,
       "thumbnail_commit": "07b98e2f29ff1d8d2efd955d5beee42bf56bbf87",
+      "visible_text": null
+    },
+    "chrome_story_18438637231193087": {
+      "caption": null,
+      "captured_at": "2026-07-07T08:48:13Z",
+      "display_timezone": "Asia/Taipei",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 3593057,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "origin": "instagram",
+              "role": "primary_video",
+              "sha256": "c220f38f894370fefe7a7ebced0d519cb51c38033100e80266ef3ab185e5cb9a",
+              "width": 1080
+            },
+            {
+              "bytes": 34510,
+              "derived_from": [
+                "c220f38f894370fefe7a7ebced0d519cb51c38033100e80266ef3ab185e5cb9a"
+              ],
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "origin": "derived_thumbnail",
+              "role": "thumbnail",
+              "sha256": "4c6e69f2cbf47ca7608db522b230805efac71c44dd66d058311f1ca641063d79",
+              "width": 360
+            }
+          ],
+          "media_index": 1,
+          "presentation_kind": "video"
+        }
+      ],
+      "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "music": null,
+      "path": "stories/2026/07/07/20260707T164813+0800_chrome_story_18438637231193087",
+      "pk": "chrome_story_18438637231193087",
+      "published_at_taipei": "2026-07-07T16:48:13+08:00",
+      "published_at_utc": "2026-07-07T08:48:13Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 1,
+      "shared_post": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
       "visible_text": null
     }
   },

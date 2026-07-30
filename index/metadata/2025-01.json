@@ -1,0 +1,57 @@
+{
+  "items": {
+    "3552786977459984462": {
+      "caption": "Dior global ambassador @JayChou exuded vibrant energy on the runway as he arrived at Friday’s #DiorWinter25 show in Paris to check out the eagerly awaited new collection by @KimJonesStudio. \n© @Pierre__Mouton",
+      "captured_at": "2026-07-08T07:22:14Z",
+      "display_timezone": "Asia/Taipei",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 272944,
+              "filename": "01-image.jpg",
+              "height": 1796,
+              "mime_type": "image/jpeg",
+              "origin": "instagram",
+              "role": "image",
+              "sha256": "9af9760bc4075eb5a9691e6ec39c3723866adefce7320887c3354fc2e6d5d530",
+              "width": 1440
+            },
+            {
+              "bytes": 10450,
+              "derived_from": [
+                "9af9760bc4075eb5a9691e6ec39c3723866adefce7320887c3354fc2e6d5d530"
+              ],
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "origin": "derived_thumbnail",
+              "role": "thumbnail",
+              "sha256": "1d5d92b4084387cf19ea97c05b50f0182e23ad74b01c30eea2f60e13a7680605",
+              "width": 513
+            }
+          ],
+          "media_index": 1,
+          "presentation_kind": "image"
+        }
+      ],
+      "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "music": null,
+      "path": "posts/2025/01/25/20250125T030000+0800_3552786977459984462",
+      "pk": "3552786977459984462",
+      "published_at_taipei": "2025-01-25T03:00:00+08:00",
+      "published_at_utc": "2025-01-24T19:00:00Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 1,
+      "shared_post": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
+      "visible_text": null
+    }
+  },
+  "schema_version": 1,
+  "year_month": "2025-01"
+}
