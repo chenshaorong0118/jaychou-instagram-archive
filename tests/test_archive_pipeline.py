@@ -32,14 +32,19 @@ def write_json(path: Path, payload: object) -> bytes:
 
 
 class BatchFixture:
-    def __init__(self, root: Path) -> None:
+    def __init__(
+        self,
+        root: Path,
+        *,
+        pk: str = "1234567890123456789",
+    ) -> None:
         self.root = root
         self.index_root = root / "index-payload"
         self.media_root = root / "media-payload"
         self.client_id = str(uuid.uuid4())
         self.batch_id = str(uuid.uuid4())
         self.branch = f"archive-batch/{self.client_id}/{self.batch_id}"
-        self.pk = "1234567890123456789"
+        self.pk = pk
         self.item_path = (
             "posts/2026/07/30/"
             f"20260730T120000+0800_{self.pk}"
@@ -233,6 +238,14 @@ class BatchValidationTests(unittest.TestCase):
     def test_has_audio_false_is_valid(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             fixture = BatchFixture(Path(temporary))
+            self.validate(fixture)
+
+    def test_restricted_legacy_pk_is_valid(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            fixture = BatchFixture(
+                Path(temporary),
+                pk="chrome_story_18438637231193087",
+            )
             self.validate(fixture)
 
     def test_wrong_sha_is_rejected(self) -> None:
