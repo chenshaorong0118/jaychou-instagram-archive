@@ -62,7 +62,11 @@ def load_metadata(item: dict, metadata_root: Path | None = None) -> dict:
 
 
 def quote(value: str) -> str:
-    return "\n".join(f"> {line}" for line in value.replace("\r\n", "\n").replace("\r", "\n").split("\n"))
+    lines = value.replace("\r\n", "\n").replace("\r", "\n").split("\n")
+    return "\n".join(
+        f"> {line.rstrip()}" if line.rstrip() else ">"
+        for line in lines
+    )
 
 
 def image_preview(source: str, href: str, alt: str, width: int) -> str:

@@ -25,6 +25,10 @@ def item(item_type: str) -> dict:
 
 
 class TimelineTests(unittest.TestCase):
+    def test_quote_preserves_paragraphs_without_trailing_whitespace(self):
+        result = timeline.quote("first line \n\nsecond line\t")
+        self.assertEqual(result, "> first line\n>\n> second line")
+
     def test_image_preview_escapes_all_dynamic_attributes(self):
         result = timeline.image_preview(
             source='https://example.test/a?x="1"&y=2',
