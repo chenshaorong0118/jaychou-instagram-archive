@@ -1,0 +1,2 @@
+jsonschema==4.26.0
+opencc-python-reimplemented==0.1.7

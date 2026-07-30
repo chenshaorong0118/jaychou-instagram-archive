@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="周杰倫 Instagram 公開歸檔的靜態媒體畫廊"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23120f0d'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23f2c86b' stroke-width='6'/%3E%3Ccircle cx='46' cy='18' r='4' fill='%23f2c86b'/%3E%3C/svg%3E"
+    />
+    <title>Instagram Archive · Jay Chou</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__eyebrow">PUBLIC MEDIA ARCHIVE</div>
+      <div class="hero__row">
+        <div>
+          <h1>周杰倫 Instagram 歸檔</h1>
+          <p>Posts 與 Stories，按原始發布時間瀏覽。</p>
+        </div>
+        <div class="hero__count" aria-live="polite">
+          <strong id="result-count">—</strong>
+          <span>items</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="搜尋和篩選">
+        <label class="search">
+          <span class="sr-only">搜尋 Caption 或 PK</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
+          </svg>
+          <input
+            id="search-input"
+            type="search"
+            autocomplete="off"
+            placeholder="搜尋 caption、文字或 PK…"
+          />
+        </label>
+
+        <label>
+          <span>月份</span>
+          <select id="month-filter">
+            <option value="">全部月份</option>
+          </select>
+        </label>
+
+        <label>
+          <span>類型</span>
+          <select id="type-filter">
+            <option value="">全部</option>
+            <option value="post">Post</option>
+            <option value="story">Story</option>
+          </select>
+        </label>
+
+        <label>
+          <span>媒體</span>
+          <select id="media-filter">
+            <option value="">全部</option>
+            <option value="image">圖片</option>
+            <option value="video">影片</option>
+            <option value="audio">有音訊</option>
+          </select>
+        </label>
+
+        <div class="view-toggle" role="group" aria-label="畫廊排列">
+          <button type="button" data-view="masonry" aria-pressed="true">
+            瀑布
+          </button>
+          <button type="button" data-view="grid" aria-pressed="false">
+            網格
+          </button>
+        </div>
+      </section>
+
+      <p id="status" class="status" role="status">載入索引中…</p>
+      <div id="gallery" class="gallery gallery--masonry" aria-live="polite"></div>
+    </main>
+
+    <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title">
+      <button class="lightbox__close" type="button" aria-label="關閉">×</button>
+      <div class="lightbox__body">
+        <div class="lightbox__media">
+          <button class="lightbox__nav lightbox__nav--previous" type="button" aria-label="上一個媒體">
+            ‹
+          </button>
+          <div id="lightbox-stage" class="lightbox__stage"></div>
+          <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="下一個媒體">
+            ›
+          </button>
+        </div>
+        <article class="lightbox__details">
+          <p id="lightbox-kicker" class="lightbox__kicker"></p>
+          <h2 id="lightbox-title"></h2>
+          <p id="lightbox-caption" class="lightbox__caption"></p>
+          <p id="lightbox-position" class="lightbox__position"></p>
+          <button id="copy-link" type="button" class="copy-link">複製連結</button>
+        </article>
+      </div>
+    </dialog>
+
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>
