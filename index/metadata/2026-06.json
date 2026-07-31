@@ -2,8 +2,6 @@
   "items": {
     "3926561033400802281": {
       "caption": "We bring the pulse 🎶🎵🎹🎻 you bring the dance🕺🏻 \n#argentina #tango #libertango",
-      "captured_at": "2026-07-08T07:21:32Z",
-      "display_timezone": "Asia/Taipei",
       "has_audio": true,
       "has_image": false,
       "has_video": true,
@@ -16,27 +14,22 @@
               "filename": "01-video.mp4",
               "height": 1280,
               "mime_type": "video/mp4",
-              "origin": "instagram",
-              "role": "primary_video",
               "sha256": "cd54891d32433871b1a2d7b4055e521ff4a62f85051ffa7e5e6001331d771f27",
+              "type": "video",
               "width": 720
             },
             {
               "bytes": 23200,
-              "derived_from": [
-                "cd54891d32433871b1a2d7b4055e521ff4a62f85051ffa7e5e6001331d771f27"
-              ],
               "filename": "01-thumbnail.webp",
               "height": 640,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "82af6367fd509ab651b79c928a176be78c4aacff61a3806d35fb4dd173f3386f",
+              "type": "thumbnail",
               "width": 360
             }
           ],
-          "media_index": 1,
-          "presentation_kind": "video"
+          "index": 1,
+          "kind": "video"
         }
       ],
       "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
@@ -46,15 +39,13 @@
       "published_at_taipei": "2026-06-24T20:06:57+08:00",
       "published_at_utc": "2026-06-24T12:06:57Z",
       "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
-      "schema_version": 1,
+      "schema_version": 2,
       "shared_post": null,
-      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
-      "visible_text": null
+      "text": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8"
     },
     "3930101474336415961": {
       "caption": "周大俠的照片來了 喜歡哪一張跟我說 不跟我說也沒關係😜",
-      "captured_at": "2026-07-08T07:21:07Z",
-      "display_timezone": "Asia/Taipei",
       "has_audio": false,
       "has_image": true,
       "has_video": false,
@@ -67,27 +58,22 @@
               "filename": "01-image.jpg",
               "height": 719,
               "mime_type": "image/jpeg",
-              "origin": "instagram",
-              "role": "image",
               "sha256": "07919c2297d39140ad1b317cd2b7adcbe4e2ac844bfbac54eb0fbf0ccb9c8983",
+              "type": "image",
               "width": 1080
             },
             {
               "bytes": 53834,
-              "derived_from": [
-                "07919c2297d39140ad1b317cd2b7adcbe4e2ac844bfbac54eb0fbf0ccb9c8983"
-              ],
               "filename": "01-thumbnail.webp",
               "height": 426,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "d7370ccf4aa3d61397e10bf24430219a08b328ceaa5effef88a453b3c6b9d0cf",
+              "type": "thumbnail",
               "width": 640
             }
           ],
-          "media_index": 1,
-          "presentation_kind": "image"
+          "index": 1,
+          "kind": "image"
         },
         {
           "assets": [
@@ -96,27 +82,22 @@
               "filename": "02-image.jpg",
               "height": 719,
               "mime_type": "image/jpeg",
-              "origin": "instagram",
-              "role": "image",
               "sha256": "084bb9e0e4d66a047349cdd08db0b159cd02c390b8ccbdd3d511e96f12409265",
+              "type": "image",
               "width": 1080
             },
             {
               "bytes": 44868,
-              "derived_from": [
-                "084bb9e0e4d66a047349cdd08db0b159cd02c390b8ccbdd3d511e96f12409265"
-              ],
               "filename": "02-thumbnail.webp",
               "height": 426,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "75a9ce1442f31fa3c50662a5c2322143f60092bc760b6398cb2980fd01c87eac",
+              "type": "thumbnail",
               "width": 640
             }
           ],
-          "media_index": 2,
-          "presentation_kind": "image"
+          "index": 2,
+          "kind": "image"
         },
         {
           "assets": [
@@ -125,27 +106,22 @@
               "filename": "03-image.jpg",
               "height": 719,
               "mime_type": "image/jpeg",
-              "origin": "instagram",
-              "role": "image",
               "sha256": "adae73c4945cab59e00785b11679480f3b2af9ed8d827206e4f0861c432d82e7",
+              "type": "image",
               "width": 1080
             },
             {
               "bytes": 60866,
-              "derived_from": [
-                "adae73c4945cab59e00785b11679480f3b2af9ed8d827206e4f0861c432d82e7"
-              ],
               "filename": "03-thumbnail.webp",
               "height": 426,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "a5965dce51bc5be1ccd4cdbda57b3e4a2f4d698eb757226252edfe26389e795b",
+              "type": "thumbnail",
               "width": 640
             }
           ],
-          "media_index": 3,
-          "presentation_kind": "image"
+          "index": 3,
+          "kind": "image"
         },
         {
           "assets": [
@@ -154,27 +130,22 @@
               "filename": "04-image.jpg",
               "height": 722,
               "mime_type": "image/jpeg",
-              "origin": "instagram",
-              "role": "image",
               "sha256": "e75570ba85f674c07f685f1c0003b83b41141621b9a38d9ff89ec206a3b15fb7",
+              "type": "image",
               "width": 1080
             },
             {
               "bytes": 41452,
-              "derived_from": [
-                "e75570ba85f674c07f685f1c0003b83b41141621b9a38d9ff89ec206a3b15fb7"
-              ],
               "filename": "04-thumbnail.webp",
               "height": 428,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "7972ac108da991857fdaff83e8c833129dff3dc33caf9422cc8b8f659ba7e866",
+              "type": "thumbnail",
               "width": 640
             }
           ],
-          "media_index": 4,
-          "presentation_kind": "image"
+          "index": 4,
+          "kind": "image"
         },
         {
           "assets": [
@@ -183,27 +154,22 @@
               "filename": "05-image.jpg",
               "height": 719,
               "mime_type": "image/jpeg",
-              "origin": "instagram",
-              "role": "image",
               "sha256": "46c2ef92ac627a188b7448ec1742d7c59903f85d8e3a48a56433fed390447b6a",
+              "type": "image",
               "width": 1080
             },
             {
               "bytes": 81886,
-              "derived_from": [
-                "46c2ef92ac627a188b7448ec1742d7c59903f85d8e3a48a56433fed390447b6a"
-              ],
               "filename": "05-thumbnail.webp",
               "height": 426,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "0f87845eebe0afba6546062bbee5cebfce49ff335e92ba4b8ce56951b81c0eb7",
+              "type": "thumbnail",
               "width": 640
             }
           ],
-          "media_index": 5,
-          "presentation_kind": "image"
+          "index": 5,
+          "kind": "image"
         }
       ],
       "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
@@ -213,12 +179,12 @@
       "published_at_taipei": "2026-06-29T17:17:06+08:00",
       "published_at_utc": "2026-06-29T09:17:06Z",
       "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
-      "schema_version": 1,
+      "schema_version": 2,
       "shared_post": null,
-      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
-      "visible_text": null
+      "text": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8"
     }
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "year_month": "2026-06"
 }

@@ -239,7 +239,7 @@ def validate_batch(
             source = safe(media_payload_root, payload_path)
             if source.stat().st_size != expected_bytes or sha256(source) != expected_sha:
                 raise AggregateError(f"asset integrity mismatch: {pk}")
-            if asset.get("role") == "thumbnail":
+            if asset.get("type") == "thumbnail":
                 thumbnail_count += 1
                 if mime != "image/webp" or not re.match(
                     b"^RIFF....WEBP", source.read_bytes()[:12], re.DOTALL
@@ -301,13 +301,13 @@ def same_existing_item(
         asset["sha256"]
         for position in existing_metadata["media"]
         for asset in position["assets"]
-        if asset.get("role") != "thumbnail"
+        if asset.get("type") != "thumbnail"
     )
     new_hashes = sorted(
         asset["sha256"]
         for position in item["metadata"]["media"]
         for asset in position["assets"]
-        if asset.get("role") != "thumbnail"
+        if asset.get("type") != "thumbnail"
     )
     return old_hashes == new_hashes
 
@@ -460,6 +460,22 @@ def rejected_path(index_root: Path, batch_id: str) -> Path:
     return index_root / "rejected" / now[:4] / now[5:7] / f"{batch_id}.json"
 
 
+def public_rejection_reason(error: str) -> str:
+    value = error.casefold()
+    if "duplicate" in value or "existing media conflicts" in value:
+        return "content_conflict"
+    if "schema" in value:
+        return "schema_invalid"
+    if "path" in value or "branch" in value:
+        return "path_invalid"
+    if any(
+        marker in value
+        for marker in ("asset", "thumbnail", "mime", "hash", "sha")
+    ):
+        return "asset_invalid"
+    return "batch_invalid"
+
+
 def process(args: argparse.Namespace) -> dict[str, Any]:
     index_root = Path(args.index_root).resolve()
     branches = list_batch_branches(index_root)
@@ -558,8 +574,6 @@ def process(args: argparse.Namespace) -> dict[str, Any]:
                     "status": "processed",
                     "processed_at_utc": utc_now(),
                     "batch_id": batch.batch_id,
-                    "branch": batch.branch,
-                    "client_id": batch.payload["client_id"],
                     "media_commit": media_commit,
                     "item_pks": [
                         str(item["pk"]) for item in batch.payload["items"]
@@ -574,7 +588,7 @@ def process(args: argparse.Namespace) -> dict[str, Any]:
                     ).hexdigest(),
                 },
             )
-        for branch, batch_id, error in rejected:
+        for _, batch_id, error in rejected:
             path = rejected_path(index_root, batch_id)
             if not path.exists():
                 write_json(
@@ -584,8 +598,7 @@ def process(args: argparse.Namespace) -> dict[str, Any]:
                         "status": "rejected",
                         "rejected_at_utc": utc_now(),
                         "batch_id": batch_id,
-                        "branch": branch,
-                        "error": error,
+                        "reason": public_rejection_reason(error),
                     },
                 )
         outputs = build_outputs(

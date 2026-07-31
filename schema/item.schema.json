@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/chenshaorong0118/jaychou-instagram-archive/schema/item.schema.json",
-  "title": "Jay Chou Instagram public archive item",
+  "title": "Jay Chou Instagram public archive item v2",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -10,10 +10,8 @@
     "item_type",
     "published_at_utc",
     "published_at_taipei",
-    "display_timezone",
-    "captured_at",
     "caption",
-    "visible_text",
+    "text",
     "shared_post",
     "music",
     "has_image",
@@ -22,7 +20,7 @@
     "media"
   ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "const": 2 },
     "pk": {
       "type": "string",
       "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$"
@@ -33,10 +31,8 @@
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}\\+08:00$"
     },
-    "display_timezone": { "const": "Asia/Taipei" },
-    "captured_at": { "type": "string", "format": "date-time" },
     "caption": { "type": ["string", "null"] },
-    "visible_text": { "type": ["string", "null"] },
+    "text": { "type": ["string", "null"] },
     "shared_post": {
       "oneOf": [
         { "type": "null" },
@@ -45,7 +41,10 @@
           "additionalProperties": false,
           "required": ["url", "shortcode", "owner_username", "archived_item_pk"],
           "properties": {
-            "url": { "type": "string", "pattern": "^https://www\\.instagram\\.com/p/" },
+            "url": {
+              "type": "string",
+              "pattern": "^https://www\\.instagram\\.com/(p|reel|tv)/"
+            },
             "shortcode": { "type": ["string", "null"] },
             "owner_username": { "type": ["string", "null"] },
             "archived_item_pk": {
@@ -80,10 +79,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["media_index", "presentation_kind", "assets"],
+        "required": ["index", "kind", "assets"],
         "properties": {
-          "media_index": { "type": "integer", "minimum": 1 },
-          "presentation_kind": { "enum": ["image", "video", "image_with_audio"] },
+          "index": { "type": "integer", "minimum": 1 },
+          "kind": { "enum": ["image", "video", "image_with_audio"] },
           "assets": {
             "type": "array",
             "minItems": 1,
@@ -91,33 +90,52 @@
               "type": "object",
               "additionalProperties": false,
               "required": [
-                "role",
+                "type",
                 "filename",
-                "origin",
                 "mime_type",
-                "width",
-                "height",
                 "bytes",
                 "sha256"
               ],
               "properties": {
-                "role": { "enum": ["image", "primary_video", "playable_video", "video_poster", "thumbnail"] },
+                "type": {
+                  "enum": ["image", "video", "audio", "poster", "thumbnail"]
+                },
                 "filename": { "type": "string", "pattern": "^[0-9]{2}-.+" },
-                "origin": { "enum": ["instagram", "derived_remux", "derived_render", "derived_thumbnail"] },
-                "mime_type": { "type": "string" },
+                "mime_type": {
+                  "enum": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/webp",
+                    "video/mp4",
+                    "audio/mp4",
+                    "audio/mpeg"
+                  ]
+                },
                 "width": { "type": "integer", "minimum": 1 },
                 "height": { "type": "integer", "minimum": 1 },
                 "video_codec": { "type": "string" },
                 "audio_codec": { "type": "string" },
                 "duration_ms": { "type": "integer", "minimum": 1 },
                 "bytes": { "type": "integer", "minimum": 1 },
-                "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-                "derived_from": {
-                  "type": "array",
-                  "minItems": 1,
-                  "items": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
                 }
-              }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "type": {
+                        "enum": ["image", "video", "poster", "thumbnail"]
+                      }
+                    }
+                  },
+                  "then": {
+                    "required": ["width", "height"]
+                  }
+                }
+              ]
             }
           }
         }

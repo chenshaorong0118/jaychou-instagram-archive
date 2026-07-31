@@ -35,14 +35,14 @@ interface SearchItem {
 }
 
 interface MediaAsset {
-  role: string;
+  type: "image" | "video" | "audio" | "poster" | "thumbnail";
   filename: string;
   mime_type: string;
 }
 
 interface MediaPosition {
-  media_index: number;
-  presentation_kind: "image" | "video" | "image_with_audio";
+  index: number;
+  kind: "image" | "video" | "image_with_audio";
   assets: MediaAsset[];
 }
 
@@ -51,6 +51,7 @@ interface MetadataItem {
   item_type: ItemType;
   published_at_taipei: string;
   caption: string | null;
+  text: string | null;
   repository: string;
   media_commit: string;
   path: string;
@@ -289,7 +290,8 @@ async function openItem(item: IndexItem, updateHistory = true): Promise<void> {
   lightboxKicker.textContent =
     `${metadata.item_type.toUpperCase()} · ${metadata.published_at_taipei}`;
   lightboxTitle.textContent = `PK ${metadata.pk}`;
-  lightboxCaption.textContent = metadata.caption || "沒有 Caption";
+  lightboxCaption.textContent =
+    metadata.caption || metadata.text || "沒有文字內容";
   renderMedia();
   if (!dialog.open) dialog.showModal();
   if (updateHistory) updateItemUrl(item.pk);
@@ -308,17 +310,18 @@ function renderMedia(): void {
   if (!currentMetadata) return;
   const position = currentMetadata.media[currentMediaIndex];
   if (!position) return;
-  const imageAsset = position.assets.find((asset) => asset.role === "image");
-  const videoAsset = position.assets.find((asset) =>
-    ["primary_video", "playable_video"].includes(asset.role),
-  );
+  const imageAsset = position.assets.find((asset) => asset.type === "image");
+  const videoAsset = position.assets.find((asset) => asset.type === "video");
   const posterAsset = position.assets.find(
-    (asset) => asset.role === "video_poster",
+    (asset) => asset.type === "poster",
   );
   if (imageAsset) {
     const image = document.createElement("img");
     image.src = assetUrl(currentMetadata, imageAsset);
-    image.alt = currentMetadata.caption || `Media ${position.media_index}`;
+    image.alt =
+      currentMetadata.caption ||
+      currentMetadata.text ||
+      `Media ${position.index}`;
     stage.append(image);
   }
   if (videoAsset) {
@@ -330,7 +333,7 @@ function renderMedia(): void {
     stage.append(video);
   }
   lightboxPosition.textContent =
-    `${position.media_index} / ${currentMetadata.media.length}`;
+    `${position.index} / ${currentMetadata.media.length}`;
   const multiple = currentMetadata.media.length > 1;
   if (previousButton) previousButton.hidden = !multiple;
   if (nextButton) nextButton.hidden = !multiple;

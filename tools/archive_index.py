@@ -26,10 +26,8 @@ SAFE_METADATA_FIELDS = {
     "item_type",
     "published_at_utc",
     "published_at_taipei",
-    "display_timezone",
-    "captured_at",
     "caption",
-    "visible_text",
+    "text",
     "shared_post",
     "music",
     "media",
@@ -48,6 +46,13 @@ FORBIDDEN_KEYS = {
     "run_id",
     "request",
     "response",
+    "captured_at",
+    "display_timezone",
+    "visible_text",
+    "origin",
+    "derived_from",
+    "fetch_time",
+    "committed_at",
 }
 
 
@@ -134,11 +139,16 @@ def safe_metadata(metadata: dict[str, Any]) -> dict[str, Any]:
     forbidden = FORBIDDEN_KEYS.intersection(_walk_keys(metadata))
     if forbidden:
         fail(f"forbidden metadata keys: {','.join(sorted(forbidden))}")
-    return {
+    if set(metadata) != SAFE_METADATA_FIELDS:
+        fail("public metadata fields are not minimal")
+    clean = {
         key: metadata[key]
         for key in metadata
         if key in SAFE_METADATA_FIELDS
     }
+    if clean.get("schema_version") != 2:
+        fail("public metadata schema_version must be 2")
+    return clean
 
 
 def validate_media_item(
@@ -160,13 +170,13 @@ def validate_media_item(
     if not isinstance(media, list) or len(media) != int(row.get("media_count") or 0):
         fail(f"media count mismatch: {pk}")
     for expected_index, position in enumerate(media, 1):
-        if position.get("media_index") != expected_index:
+        if position.get("index") != expected_index:
             fail(f"media index mismatch: {pk}")
         assets = position.get("assets")
         if not isinstance(assets, list) or not assets:
             fail(f"media assets missing: {pk}")
         thumbnails = [
-            asset for asset in assets if asset.get("role") == "thumbnail"
+            asset for asset in assets if asset.get("type") == "thumbnail"
         ]
         if len(thumbnails) != 1:
             fail(f"thumbnail missing/duplicate: {pk}:{expected_index}")
@@ -185,7 +195,7 @@ def validate_media_item(
             path = safe(media_root, f"{relative}/{filename}")
             if path.stat().st_size != expected_bytes or sha256(path) != expected_sha:
                 fail(f"asset integrity mismatch: {pk}:{filename}")
-            if asset.get("role") == "thumbnail":
+            if asset.get("type") == "thumbnail":
                 if (
                     asset.get("mime_type") != "image/webp"
                     or max(int(asset.get("width") or 0), int(asset.get("height") or 0))
@@ -243,7 +253,7 @@ def build_outputs(
         thumbnail = next(
             asset
             for asset in first_position["assets"]
-            if asset["role"] == "thumbnail"
+            if asset["type"] == "thumbnail"
         )
         month = str(row["published_at_taipei"])[:7]
         metadata_shard = f"index/metadata/{month}.json"
@@ -286,7 +296,7 @@ def build_outputs(
                         value
                         for value in (
                             metadata.get("caption"),
-                            metadata.get("visible_text"),
+                            metadata.get("text"),
                             str(row["pk"]),
                         )
                         if isinstance(value, str) and value
@@ -306,7 +316,7 @@ def build_outputs(
         write_json(
             metadata_root / f"{month}.json",
             {
-                "schema_version": 1,
+                "schema_version": 2,
                 "year_month": month,
                 "items": items,
             },
@@ -324,11 +334,23 @@ def build_outputs(
 def update_shards(index_root: Path, media_root: Path, items: list[dict[str, Any]]) -> None:
     shards_path = index_root / "index" / "shards.json"
     shards = json.loads(shards_path.read_text(encoding="utf-8"))
-    media_bytes = sum(
-        path.stat().st_size
-        for path in media_root.rglob("*")
-        if path.is_file() and ".git" not in path.parts
-    )
+    media_bytes = 0
+    seen_assets: set[Path] = set()
+    for item in items:
+        metadata = json.loads(
+            safe(media_root, f"{item['path']}/metadata.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        for position in metadata["media"]:
+            for asset in position["assets"]:
+                path = safe(
+                    media_root,
+                    f"{item['path']}/{asset['filename']}",
+                )
+                if path not in seen_assets:
+                    seen_assets.add(path)
+                    media_bytes += path.stat().st_size
     for shard in shards:
         rows = [
             item for item in items if item["repository"] == shard["repository"]

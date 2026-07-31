@@ -52,15 +52,13 @@ class BatchFixture:
         self.image = b"\xff\xd8\xff\xe0archive-fixture"
         self.webp = b"RIFF\x08\x00\x00\x00WEBPVP8 "
         self.metadata = {
-            "schema_version": 1,
+            "schema_version": 2,
             "pk": self.pk,
             "item_type": "post",
             "published_at_utc": "2026-07-30T04:00:00Z",
             "published_at_taipei": "2026-07-30T12:00:00+08:00",
-            "display_timezone": "Asia/Taipei",
-            "captured_at": "2026-07-30T04:01:00Z",
             "caption": "繁體音樂",
-            "visible_text": "週杰倫",
+            "text": "週杰倫",
             "shared_post": None,
             "music": None,
             "has_image": True,
@@ -68,13 +66,12 @@ class BatchFixture:
             "has_audio": False,
             "media": [
                 {
-                    "media_index": 1,
-                    "presentation_kind": "image",
+                    "index": 1,
+                    "kind": "image",
                     "assets": [
                         {
-                            "role": "image",
+                            "type": "image",
                             "filename": "01-image.jpg",
-                            "origin": "instagram",
                             "mime_type": "image/jpeg",
                             "width": 100,
                             "height": 50,
@@ -82,15 +79,13 @@ class BatchFixture:
                             "sha256": digest(self.image),
                         },
                         {
-                            "role": "thumbnail",
+                            "type": "thumbnail",
                             "filename": "01-thumbnail.webp",
-                            "origin": "derived_thumbnail",
                             "mime_type": "image/webp",
                             "width": 100,
                             "height": 50,
                             "bytes": len(self.webp),
                             "sha256": digest(self.webp),
-                            "derived_from": [digest(self.image)],
                         },
                     ],
                 }
@@ -174,7 +169,7 @@ class BatchFixture:
 
     def asset(
         self,
-        role: str,
+        asset_type: str,
         filename: str,
         mime_type: str,
         data: bytes,
@@ -183,7 +178,7 @@ class BatchFixture:
         height: int | None = None,
     ) -> dict[str, object]:
         row: dict[str, object] = {
-            "role": role,
+            "type": asset_type,
             "payload_path": (
                 f"incoming/{self.batch_id}/{self.item_path}/{filename}"
             ),
@@ -277,7 +272,7 @@ class BatchValidationTests(unittest.TestCase):
             item["assets"] = [
                 asset
                 for asset in item["assets"]
-                if asset["role"] != "thumbnail"
+                if asset["type"] != "thumbnail"
             ]
             thumb = (
                 fixture.media_root
@@ -291,6 +286,15 @@ class BatchValidationTests(unittest.TestCase):
             with self.assertRaisesRegex(
                 AggregateError, "thumbnail coverage mismatch"
             ):
+                self.validate(fixture)
+
+    def test_collection_provenance_fields_are_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            fixture = BatchFixture(Path(temporary))
+            fixture.metadata["captured_at"] = "2026-07-30T04:01:00Z"
+            fixture.metadata["media"][0]["assets"][0]["origin"] = "instagram"
+            fixture.rewrite_manifests()
+            with self.assertRaisesRegex(AggregateError, "batch schema invalid"):
                 self.validate(fixture)
 
     def test_ten_independent_batches_have_unique_refs(self) -> None:
@@ -345,6 +349,12 @@ class DeterministicIndexTests(unittest.TestCase):
             build_outputs(index_root, media_root)
             self.assertEqual(first, [path.read_bytes() for path in paths])
             search = json.loads(paths[1].read_text(encoding="utf-8"))
+            metadata = json.loads(paths[2].read_text(encoding="utf-8"))
+            public_item = metadata["items"][fixture.pk]
+            self.assertEqual(2, public_item["schema_version"])
+            self.assertEqual("週杰倫", public_item["text"])
+            self.assertNotIn("captured_at", public_item)
+            self.assertNotIn("origin", public_item["media"][0]["assets"][0])
             simplified = search["items"][0]["search_text_simplified"]
             self.assertIn("繁体音乐", simplified)
             self.assertIn("周杰伦", simplified)
