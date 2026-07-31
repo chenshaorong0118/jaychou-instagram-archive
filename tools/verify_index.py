@@ -35,6 +35,11 @@ FORBIDDEN_KEYS = {
     "run_id",
     "request",
     "response",
+    "captured_at",
+    "display_timezone",
+    "visible_text",
+    "origin",
+    "derived_from",
 }
 
 
@@ -111,7 +116,7 @@ def verify_metadata(root: Path, items: list[dict[str, Any]]) -> dict[str, dict]:
                 encoding="utf-8"
             )
         )
-        if payload.get("schema_version") != 1 or payload.get("year_month") != month:
+        if payload.get("schema_version") != 2 or payload.get("year_month") != month:
             fail(f"metadata shard header mismatch: {month}")
         rows = payload.get("items")
         if not isinstance(rows, dict):
@@ -124,9 +129,39 @@ def verify_metadata(root: Path, items: list[dict[str, Any]]) -> dict[str, dict]:
                 fail(f"forbidden metadata key: {pk}:{sorted(forbidden)[0]}")
             if str(metadata.get("published_at_taipei", ""))[:7] != month:
                 fail(f"metadata month mismatch: {pk}")
+            if metadata.get("schema_version") != 2:
+                fail(f"metadata schema mismatch: {pk}")
+            if "text" not in metadata:
+                fail(f"metadata text field missing: {pk}")
             for field in ("has_image", "has_video", "has_audio"):
                 if not isinstance(metadata.get(field), bool):
                     fail(f"metadata media flag missing: {pk}:{field}")
+            media = metadata.get("media")
+            if not isinstance(media, list) or not media:
+                fail(f"metadata media missing: {pk}")
+            for expected_index, position in enumerate(media, 1):
+                if position.get("index") != expected_index:
+                    fail(f"metadata media index mismatch: {pk}")
+                if position.get("kind") not in {
+                    "image",
+                    "video",
+                    "image_with_audio",
+                }:
+                    fail(f"metadata media kind invalid: {pk}")
+                assets = position.get("assets")
+                if not isinstance(assets, list) or not assets:
+                    fail(f"metadata assets missing: {pk}")
+                if (
+                    len(
+                        [
+                            asset
+                            for asset in assets
+                            if asset.get("type") == "thumbnail"
+                        ]
+                    )
+                    != 1
+                ):
+                    fail(f"metadata thumbnail invalid: {pk}")
             by_pk[pk] = metadata
     if set(by_pk) != expected_pks:
         fail("metadata PK coverage mismatch")
@@ -157,7 +192,7 @@ def verify_search(
                 value
                 for value in (
                     source.get("caption"),
-                    source.get("visible_text"),
+                    source.get("text"),
                     pk,
                 )
                 if isinstance(value, str) and value
@@ -189,6 +224,24 @@ def verify_shards(root: Path, item_count: int) -> None:
 
 
 def verify_receipts(root: Path) -> None:
+    expected_keys = {
+        "processed": {
+            "schema_version",
+            "status",
+            "processed_at_utc",
+            "batch_id",
+            "media_commit",
+            "item_pks",
+            "batch_sha256",
+        },
+        "rejected": {
+            "schema_version",
+            "status",
+            "rejected_at_utc",
+            "batch_id",
+            "reason",
+        },
+    }
     for status, directory in (("processed", "processed"), ("rejected", "rejected")):
         for path in root.joinpath(directory).glob("*/*/*.json"):
             payload = json.loads(path.read_text(encoding="utf-8"))
@@ -199,6 +252,8 @@ def verify_receipts(root: Path) -> None:
                 or not UUID_RE.fullmatch(path.stem)
             ):
                 fail(f"invalid {status} receipt: {path}")
+            if set(payload) != expected_keys[status]:
+                fail(f"non-minimal {status} receipt: {path}")
 
 
 def main() -> int:

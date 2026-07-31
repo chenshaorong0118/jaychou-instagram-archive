@@ -2,8 +2,6 @@
   "items": {
     "3737257621490088601": {
       "caption": "Jay Chou and Roger Federer: an encounter.\n\nBetween centre stage and centre court, @JayChou and @RogerFederer meet in transit – their legacy in tow.\n\n#RIMOWA #NeverStill",
-      "captured_at": "2026-07-08T07:21:53Z",
-      "display_timezone": "Asia/Taipei",
       "has_audio": true,
       "has_image": false,
       "has_video": true,
@@ -16,27 +14,22 @@
               "filename": "01-video.mp4",
               "height": 1280,
               "mime_type": "video/mp4",
-              "origin": "instagram",
-              "role": "primary_video",
               "sha256": "127f527609e322dac730addf91fe771903bbb3770142db295ce8f1561546b53d",
+              "type": "video",
               "width": 720
             },
             {
               "bytes": 10676,
-              "derived_from": [
-                "127f527609e322dac730addf91fe771903bbb3770142db295ce8f1561546b53d"
-              ],
               "filename": "01-thumbnail.webp",
               "height": 640,
               "mime_type": "image/webp",
-              "origin": "derived_thumbnail",
-              "role": "thumbnail",
               "sha256": "36c91547897ea4351ecf8958bce36cfa4b8bb71c00ab47e744528db76cc68ebe",
+              "type": "thumbnail",
               "width": 360
             }
           ],
-          "media_index": 1,
-          "presentation_kind": "video"
+          "index": 1,
+          "kind": "video"
         }
       ],
       "media_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
@@ -46,12 +39,12 @@
       "published_at_taipei": "2025-10-06T15:32:34+08:00",
       "published_at_utc": "2025-10-06T07:32:34Z",
       "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
-      "schema_version": 1,
+      "schema_version": 2,
       "shared_post": null,
-      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8",
-      "visible_text": null
+      "text": null,
+      "thumbnail_commit": "5a800386e0bc2f341c0a9ceec0145bbdb7f518b8"
     }
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "year_month": "2025-10"
 }

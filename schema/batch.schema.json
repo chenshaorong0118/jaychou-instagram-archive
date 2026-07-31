@@ -88,7 +88,7 @@
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "role",
+        "type",
         "payload_path",
         "target_path",
         "mime_type",
@@ -96,12 +96,12 @@
         "sha256"
       ],
       "properties": {
-        "role": {
+        "type": {
           "enum": [
             "image",
-            "primary_video",
-            "playable_video",
-            "video_poster",
+            "video",
+            "audio",
+            "poster",
             "thumbnail",
             "metadata"
           ]
