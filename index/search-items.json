@@ -1115,6 +1115,30 @@
       "published_at_taipei": "2026-08-05T09:52:37+08:00",
       "search_text_simplified": "3956694471948628375",
       "year_month": "2026-08"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "3956871559407040560",
+      "published_at_taipei": "2026-08-05T15:44:28+08:00",
+      "search_text_simplified": "3956871559407040560",
+      "year_month": "2026-08"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "3956873317911073120",
+      "published_at_taipei": "2026-08-05T15:47:58+08:00",
+      "search_text_simplified": "3956873317911073120",
+      "year_month": "2026-08"
     }
   ],
   "schema_version": 1
