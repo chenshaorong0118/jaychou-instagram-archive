@@ -83,4 +83,8 @@ jobs:
     steps:
       - name: Deploy GitHub Pages
         id: deployment
+        # deploy-pages v5 still bundles a dependency that loads node:punycode.
+        # Remove this narrow suppression after actions/deploy-pages#413 is fixed.
+        env:
+          NODE_OPTIONS: --disable-warning=DEP0040
         uses: actions/deploy-pages@v5
