@@ -1343,6 +1343,42 @@
       "published_at_taipei": "2026-08-31T16:41:14+08:00",
       "search_text_simplified": "3975744301934297699",
       "year_month": "2026-08"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "3979639990887879850",
+      "published_at_taipei": "2026-09-06T01:41:16+08:00",
+      "search_text_simplified": "3979639990887879850",
+      "year_month": "2026-09"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "3980232423078318725",
+      "published_at_taipei": "2026-09-06T21:18:20+08:00",
+      "search_text_simplified": "3980232423078318725",
+      "year_month": "2026-09"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "3980234640426263690",
+      "published_at_taipei": "2026-09-06T21:22:44+08:00",
+      "search_text_simplified": "3980234640426263690",
+      "year_month": "2026-09"
     }
   ],
   "schema_version": 1
