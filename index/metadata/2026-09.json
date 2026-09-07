@@ -142,6 +142,50 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "744e402013517f69dfa8cc376ccd52b287c94f72"
+    },
+    "3980236742150025154": {
+      "caption": "其實最近有點矛盾 一直有新的旋律 新的畫面 可是又會想 如果現在有新歌丟出來 會不會反而讓大家忽略了那個花了很多預算 時間與心力才剛發出的新專輯\n所以最近有很多靈感 卻又一直告訴自己先等等 有些新作品也許不用急著出現\n讓它多待一會 讓時間替它發酵 或許最後會變成更好的樣子\n還是你們覺得少給我囉嗦 趕快丟出來….😜",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1162545,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "681368d35b5dbfdf22a052e941323b8a7f3889ab73963683065a6eb0cc5da7ad",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 46746,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "03a2db6dd2c4183c7227a17c37e3113a48d404c84bc168c3e72a49ddabc94120",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "3d5eb0f4841c1ebbde136d577f229789837d2769",
+      "music": null,
+      "path": "posts/2026/09/06/20260906T214529+0800_3980236742150025154",
+      "pk": "3980236742150025154",
+      "published_at_taipei": "2026-09-06T21:45:29+08:00",
+      "published_at_utc": "2026-09-06T13:45:29Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "3d5eb0f4841c1ebbde136d577f229789837d2769"
     }
   },
   "schema_version": 2,
