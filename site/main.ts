@@ -274,9 +274,11 @@ function createCard(item: IndexItem): HTMLButtonElement {
   image.dataset.src = rawUrl(item.repository, item.thumbnail_commit, item.thumbnail_path);
   image.addEventListener("load", () => card.classList.add("is-loaded"), { once: true });
   image.addEventListener("error", () => card.classList.add("is-loaded"), { once: true });
+  // Most items are Stories; only Posts get a label so it stands out.
   const type = document.createElement("span");
   type.className = "card__type";
-  type.textContent = item.item_type === "story" ? "Story" : "Post";
+  type.textContent = "Post";
+  type.hidden = item.item_type !== "post";
   const icons = document.createElement("span");
   icons.className = "card__icons";
   const addIcon = (svg: string, label: string) => {

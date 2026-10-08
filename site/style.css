@@ -9,10 +9,11 @@
   --muted: #9c9486;
   --accent: #e9c46a;
   --accent-ink: #1a1408;
-  --radius: 14px;
+  --radius: 10px;
   --gutter: clamp(1rem, 4vw, 3rem);
   --sans: "Inter", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC",
     system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
   --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
   font-family: var(--sans);
   color: var(--text);
@@ -103,10 +104,11 @@ svg {
 
 h1 {
   margin: 0;
-  font-size: clamp(2rem, 5.2vw, 3.6rem);
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 5.4vw, 3.8rem);
   font-weight: 700;
   line-height: 1.12;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 .hero__lede {
@@ -134,7 +136,8 @@ h1 {
 
 .stats dd {
   margin: 0;
-  font-size: 1.5rem;
+  font-family: var(--serif);
+  font-size: 1.6rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }
@@ -290,9 +293,10 @@ main {
 
 .month__heading h2 {
   margin: 0;
-  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
-  font-weight: 650;
-  letter-spacing: 0.01em;
+  font-family: var(--serif);
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .month__heading span {
@@ -616,8 +620,9 @@ main {
 
 .lightbox__details h2 {
   margin: 0;
-  font-size: 1.35rem;
-  font-weight: 650;
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 600;
   line-height: 1.35;
 }
 
@@ -813,7 +818,7 @@ main {
   }
 
   .card {
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .card__type,
