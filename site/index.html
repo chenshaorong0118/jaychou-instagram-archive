@@ -2,105 +2,124 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0e0d0b" />
     <meta
       name="description"
-      content="周杰倫 Instagram 公開歸檔的靜態媒體畫廊"
+      content="周杰倫 Instagram Posts 與 Stories 的非官方公開歸檔，按原始發布時間瀏覽。"
     />
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23120f0d'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23f2c86b' stroke-width='6'/%3E%3Ccircle cx='46' cy='18' r='4' fill='%23f2c86b'/%3E%3C/svg%3E"
     />
-    <title>Instagram Archive · Jay Chou</title>
+    <title>周杰倫 Instagram 歸檔</title>
   </head>
   <body>
     <header class="hero">
-      <div class="hero__eyebrow">PUBLIC MEDIA ARCHIVE</div>
-      <div class="hero__row">
-        <div>
-          <h1>周杰倫 Instagram 歸檔</h1>
-          <p>Posts 與 Stories，按原始發布時間瀏覽。</p>
-        </div>
-        <div class="hero__count" aria-live="polite">
-          <strong id="result-count">—</strong>
-          <span>items</span>
-        </div>
+      <div class="hero__text">
+        <p class="eyebrow">Jay Chou · Instagram Archive</p>
+        <h1>周杰倫 Instagram 歸檔</h1>
+        <p class="hero__lede">Posts 與 Stories，按原始發布時間保存與瀏覽。</p>
       </div>
+      <dl class="stats" aria-live="polite">
+        <div><dt>全部</dt><dd id="stat-total">—</dd></div>
+        <div><dt>Stories</dt><dd id="stat-stories">—</dd></div>
+        <div><dt>Posts</dt><dd id="stat-posts">—</dd></div>
+        <div><dt>最近更新</dt><dd id="stat-latest">—</dd></div>
+      </dl>
     </header>
 
-    <main>
-      <section class="controls" aria-label="搜尋和篩選">
+    <div class="toolbar" role="search">
+      <div class="toolbar__inner">
         <label class="search">
-          <span class="sr-only">搜尋 Caption 或 PK</span>
+          <span class="sr-only">搜尋文字或 PK</span>
           <svg aria-hidden="true" viewBox="0 0 24 24">
             <path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
           </svg>
-          <input
-            id="search-input"
-            type="search"
-            autocomplete="off"
-            placeholder="搜尋 caption、文字或 PK…"
-          />
+          <input id="search-input" type="search" autocomplete="off" placeholder="搜尋文字或 PK" />
         </label>
 
-        <label>
-          <span>月份</span>
-          <select id="month-filter">
-            <option value="">全部月份</option>
-          </select>
-        </label>
+        <div class="chips" role="group" aria-label="類型">
+          <button type="button" class="chip" data-type="" aria-pressed="true">全部</button>
+          <button type="button" class="chip" data-type="story" aria-pressed="false">Story</button>
+          <button type="button" class="chip" data-type="post" aria-pressed="false">Post</button>
+        </div>
 
-        <label>
-          <span>類型</span>
-          <select id="type-filter">
-            <option value="">全部</option>
-            <option value="post">Post</option>
-            <option value="story">Story</option>
-          </select>
-        </label>
-
-        <label>
-          <span>媒體</span>
+        <label class="select">
+          <span class="sr-only">媒體</span>
           <select id="media-filter">
-            <option value="">全部</option>
+            <option value="">所有媒體</option>
             <option value="image">圖片</option>
             <option value="video">影片</option>
-            <option value="audio">有音訊</option>
+            <option value="audio">有聲音</option>
           </select>
         </label>
 
-        <div class="view-toggle" role="group" aria-label="畫廊排列">
-          <button type="button" data-view="masonry" aria-pressed="true">
-            瀑布
+        <label class="select">
+          <span class="sr-only">月份</span>
+          <select id="month-filter">
+            <option value="">所有月份</option>
+          </select>
+        </label>
+
+        <div class="segmented" role="group" aria-label="排列方式">
+          <button type="button" data-view="grid" aria-pressed="true" title="整齊網格">
+            <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z" /></svg>
+            <span class="sr-only">網格</span>
           </button>
-          <button type="button" data-view="grid" aria-pressed="false">
-            網格
+          <button type="button" data-view="masonry" aria-pressed="false" title="原始比例">
+            <svg aria-hidden="true" viewBox="0 0 20 20"><path d="M3 3h6v9H3zM11 3h6v5h-6zM3 14h6v3H3zM11 10h6v7h-6z" /></svg>
+            <span class="sr-only">原始比例</span>
           </button>
         </div>
-      </section>
+      </div>
+    </div>
 
+    <main>
       <p id="status" class="status" role="status">載入索引中…</p>
-      <div id="gallery" class="gallery gallery--masonry" aria-live="polite"></div>
+      <div id="gallery" class="gallery gallery--grid"></div>
     </main>
 
+    <footer class="footer">
+      <p>非官方歸檔。媒體與文字版權屬原作者所有，僅作保存與索引用途。</p>
+      <p>
+        <a href="https://github.com/chenshaorong0118/jaychou-instagram-archive">GitHub</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/chenshaorong0118/jaychou-instagram-archive/blob/main/MEDIA_RIGHTS.md">媒體權利說明</a>
+      </p>
+    </footer>
+
     <dialog id="lightbox" class="lightbox" aria-labelledby="lightbox-title">
-      <button class="lightbox__close" type="button" aria-label="關閉">×</button>
       <div class="lightbox__body">
         <div class="lightbox__media">
-          <button class="lightbox__nav lightbox__nav--previous" type="button" aria-label="上一個媒體">
-            ‹
-          </button>
+          <div class="progress" id="lightbox-progress" aria-hidden="true"></div>
           <div id="lightbox-stage" class="lightbox__stage"></div>
-          <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="下一個媒體">
-            ›
+          <button class="nav nav--previous" type="button" aria-label="上一個">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7" /></svg>
+          </button>
+          <button class="nav nav--next" type="button" aria-label="下一個">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg>
           </button>
         </div>
         <article class="lightbox__details">
-          <p id="lightbox-kicker" class="lightbox__kicker"></p>
+          <header class="details__head">
+            <span id="lightbox-kicker" class="badge"></span>
+            <button class="close" type="button" aria-label="關閉" autofocus>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" /></svg>
+            </button>
+          </header>
           <h2 id="lightbox-title"></h2>
-          <p id="lightbox-caption" class="lightbox__caption"></p>
-          <p id="lightbox-position" class="lightbox__position"></p>
-          <button id="copy-link" type="button" class="copy-link">複製連結</button>
+          <p id="lightbox-time" class="details__time"></p>
+          <p id="lightbox-caption" class="details__caption"></p>
+          <dl class="details__meta">
+            <div><dt>媒體</dt><dd id="lightbox-position"></dd></div>
+            <div><dt>PK</dt><dd id="lightbox-pk"></dd></div>
+          </dl>
+          <div class="details__actions">
+            <button id="copy-link" type="button" class="button">複製連結</button>
+            <a id="open-original" class="button button--ghost" target="_blank" rel="noopener">開啟原檔</a>
+          </div>
+          <p class="details__hint">← → 切換　Esc 關閉</p>
         </article>
       </div>
     </dialog>
