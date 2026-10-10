@@ -1,5 +1,763 @@
 {
   "items": {
+    "3998222123793362294": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 199445,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "859b1db91f37a8d0ecf4b290ba663735053d6f367b8c60672ce2e31588760dc3",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 20930,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "518668533ac4dd124c830ece29a3ea2e3fca7f4bf28a19ae2dff3447b8527a3b",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/01/20261001T170040+0800_3998222123793362294",
+      "pk": "3998222123793362294",
+      "published_at_taipei": "2026-10-01T17:00:40+08:00",
+      "published_at_utc": "2026-10-01T09:00:40Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3998223600725200891": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 320436,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "e818e6e53521b3f5d27e6d7274dc0882a56e4faaf3f40e233d1b96b465231928",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 40994,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "64e2b8ff5d088a3241626931e0e8c0a8ef6cb486e6b92d70d6e1dbe2a46367e5",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/01/20261001T170336+0800_3998223600725200891",
+      "pk": "3998223600725200891",
+      "published_at_taipei": "2026-10-01T17:03:36+08:00",
+      "published_at_utc": "2026-10-01T09:03:36Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3998474834258202482": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 267021,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "a1bc5ef06f891a27bb012c1acc467562bb596621d07378241837beeebbe87ea8",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 22824,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "bf1ace572dbc058531950a3adae190767c918930167f7522934ce39c37e29e8b",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T012245+0800_3998474834258202482",
+      "pk": "3998474834258202482",
+      "published_at_taipei": "2026-10-02T01:22:45+08:00",
+      "published_at_utc": "2026-10-01T17:22:45Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3998476214935485952": {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 7359360,
+              "duration_ms": 12000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "a823faed19b3d6e0ff61acb37f38b53b9905c330d08c2d676910663249ecd9b1",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 18074,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "39f335c9f17f3138d358a5695496038d096fb5d6ddf8c42cb25f10eb91932bc6",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T012526+0800_3998476214935485952",
+      "pk": "3998476214935485952",
+      "published_at_taipei": "2026-10-02T01:25:26+08:00",
+      "published_at_utc": "2026-10-01T17:25:26Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3998996902360323931": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 608135,
+              "duration_ms": 16000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "abec160a8f30630bb36e7b3ac6a0f775d723fb789c49e5adc4aa1476ca408489",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 31488,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "42f7a88a375eca2b591853daa4f5536d84d2795d176ebdcd5b1ef6ae664c808e",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T184000+0800_3998996902360323931",
+      "pk": "3998996902360323931",
+      "published_at_taipei": "2026-10-02T18:40:00+08:00",
+      "published_at_utc": "2026-10-02T10:40:00Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999006405340057634": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 215953,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "67307bf6d8df38bf77a53cb7bffe0ba506de3dcb45bda09e19008a42ef8c9c2d",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 19232,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "725f52a964f3731148824fd87d36e090bb4ad59f5c871b98fee034716a1e8194",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T185853+0800_3999006405340057634",
+      "pk": "3999006405340057634",
+      "published_at_taipei": "2026-10-02T18:58:53+08:00",
+      "published_at_utc": "2026-10-02T10:58:53Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999007403903161875": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 226182,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "3aff53a113b57bec74a37af95f3004f8f1c625ab35a9ae86c9c6be488fef8860",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 26658,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "628b6adab74e35f1213cc7b164b43eb43a43697ce6d11f26fda79511ecd06fec",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T190052+0800_3999007403903161875",
+      "pk": "3999007403903161875",
+      "published_at_taipei": "2026-10-02T19:00:52+08:00",
+      "published_at_utc": "2026-10-02T11:00:52Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999008615738366399": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 313050,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "08d2711d69c46499a084ab05c3dbf19137c8975e298f94eb32e2232d254bdaad",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 22968,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "6fc1c16596f70fdae934d9b47b33b4eb90e570fd716e6b88c9fff45aabd3ef91",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T190317+0800_3999008615738366399",
+      "pk": "3999008615738366399",
+      "published_at_taipei": "2026-10-02T19:03:17+08:00",
+      "published_at_utc": "2026-10-02T11:03:17Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999008986053460619": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 297985,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "bef1864e8edb22380f8133cd2d08c3bd95be928521997959deeceab5d38c7de1",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 26254,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "d490df3bc6a3fb8e67b0430c75512901a45b671a900a28a194c00b3e37d75ff3",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T190401+0800_3999008986053460619",
+      "pk": "3999008986053460619",
+      "published_at_taipei": "2026-10-02T19:04:01+08:00",
+      "published_at_utc": "2026-10-02T11:04:01Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999078846481391036": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 168882,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "1edce289c9c4a11bec153ebe38483fa6e98dfaa84b054e0d090e154a7d22bc30",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 18896,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "9271d4589a04c5fab8bf39fabde1a818e0e46e554c903a40244a999ba8b92e70",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T212249+0800_3999078846481391036",
+      "pk": "3999078846481391036",
+      "published_at_taipei": "2026-10-02T21:22:49+08:00",
+      "published_at_utc": "2026-10-02T13:22:49Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999079163243751548": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 202227,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "849ff4d83ca7fdfd004ea8c4cd020ae75c31cdfec4e2e638e6cf4fe45d423700",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 15624,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "43f2cdf237421f60ab6f17a7bb5a4dace18bdf8d95009cc6946f0e8b22ecb2ef",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/02/20261002T212327+0800_3999079163243751548",
+      "pk": "3999079163243751548",
+      "published_at_taipei": "2026-10-02T21:23:27+08:00",
+      "published_at_utc": "2026-10-02T13:23:27Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3999829684674356093": {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 13091848,
+              "duration_ms": 20067,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "c4855f382fbef1e6934ff03e1b730c79c9ba467f98cf0596a4b161aead571c9b",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 28100,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "668850f0b6635f7ff5642a16f211059c2a8c06765a67e212e03ca4343478e7be",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/03/20261003T221433+0800_3999829684674356093",
+      "pk": "3999829684674356093",
+      "published_at_taipei": "2026-10-03T22:14:33+08:00",
+      "published_at_utc": "2026-10-03T14:14:33Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001173882924883388": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 210881,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "17e932029f871e98f978aff39ad0882e4f76d411ae4236b678fdef74107604f7",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 19802,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "419a262bc8891b59c0a2b785df1a004fa3e526d6df2786d916ca34a2ac250446",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/05/20261005T184516+0800_4001173882924883388",
+      "pk": "4001173882924883388",
+      "published_at_taipei": "2026-10-05T18:45:16+08:00",
+      "published_at_utc": "2026-10-05T10:45:16Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001645900065499028": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 338464,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "393fb075020ecc9533babfb19095973f56b1bb924a706bea8223f91ab0e31069",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 29810,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "4d737b349d0b21e25f9cf4812c5f247e7913ed63902fb5eeb3c2b65c63c2dff1",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/06/20261006T102305+0800_4001645900065499028",
+      "pk": "4001645900065499028",
+      "published_at_taipei": "2026-10-06T10:23:05+08:00",
+      "published_at_utc": "2026-10-06T02:23:05Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001936612766459193": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 3215832,
+              "duration_ms": 45133,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "480b56f18c9e3a4012bc7f55263bdc003d8dfe8177debe9eb36d1a0bcfd3948e",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 28532,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "5fd4b4938e7349da57627ee5c87c173d06fee918bf32c5b87b68ae637e9a5fcb",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/06/20261006T200034+0800_4001936612766459193",
+      "pk": "4001936612766459193",
+      "published_at_taipei": "2026-10-06T20:00:34+08:00",
+      "published_at_utc": "2026-10-06T12:00:34Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001939336157113595": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 119137,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "20883f7ddfc5a3746eff5f4029ac924534773925031d56e3a01ed8c085a66e25",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 9912,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "804a2a5d57ccaab8f8a3ecbcced7047c65963c514a2839a258edc6f84af1888d",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/06/20261006T200605+0800_4001939336157113595",
+      "pk": "4001939336157113595",
+      "published_at_taipei": "2026-10-06T20:06:05+08:00",
+      "published_at_utc": "2026-10-06T12:06:05Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001939584795392564": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 256575,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "16a8036ad6f5846c5ac1cf738b331f44715495dde1ed091e75c9f61758edaf8b",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 29360,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "f6edee9fcce36d09fe9690e388592e74ae118f4dc5ea6af5ae3de4057b8ca791",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/06/20261006T200635+0800_4001939584795392564",
+      "pk": "4001939584795392564",
+      "published_at_taipei": "2026-10-06T20:06:35+08:00",
+      "published_at_utc": "2026-10-06T12:06:35Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
     "4002767059138371354": {
       "caption": null,
       "has_audio": true,
@@ -134,6 +892,231 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "0c5cb53c8a5ba86eb9bbd0beffa4583c8759802e"
+    },
+    "4003318392505435288": {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 27978873,
+              "duration_ms": 60022,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "de02dfb5fb08cb2da0e0605540520f42b5822798c729a233092d6faa2c2541a4",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 21744,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "8b1833933e75f114218cb2aaa28aad82138d15583255eb93e72fc08f95d8512e",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/08/20261008T174538+0800_4003318392505435288",
+      "pk": "4003318392505435288",
+      "published_at_taipei": "2026-10-08T17:45:38+08:00",
+      "published_at_utc": "2026-10-08T09:45:38Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4003362584283329698": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 146587,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "88bc2bb5e7cac8a80862c8c62e3ad5270935ae36ceb5996c9efcd7bb76635b40",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 14674,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "ff1b20da3272886b3b8463c04ec20bbed207558de2e7b312975cc17aab722ce8",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/08/20261008T191350+0800_4003362584283329698",
+      "pk": "4003362584283329698",
+      "published_at_taipei": "2026-10-08T19:13:50+08:00",
+      "published_at_utc": "2026-10-08T11:13:50Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4003539818583572375": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 250033,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "315bb9bbb0cf5a9b351dfcf8c604b8c2166867e536353f638c03132f82eeb569",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 27852,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "a90e99432c0b5ef6c041202ec33a9d2354ad276712f69e77666bd18d4e51fe86",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/09/20261009T010558+0800_4003539818583572375",
+      "pk": "4003539818583572375",
+      "published_at_taipei": "2026-10-09T01:05:58+08:00",
+      "published_at_utc": "2026-10-08T17:05:58Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4004150276671687845": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 369303,
+              "filename": "01-image.jpg",
+              "height": 2346,
+              "mime_type": "image/jpeg",
+              "sha256": "73b93e164e235d59f86adbcadbd849c998bb73ccdb0698a31d0c5870cbb587bf",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 47136,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "309b6c4fe3af556108196f528e632c1485c752661a7011c05685c4de458eec51",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/09/20261009T211850+0800_4004150276671687845",
+      "pk": "4004150276671687845",
+      "published_at_taipei": "2026-10-09T21:18:50+08:00",
+      "published_at_utc": "2026-10-09T13:18:50Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4004188322930844737": {
+      "caption": null,
+      "has_audio": false,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1252451,
+              "duration_ms": 15000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "97d4247d5289850ac9179d373f57cfc7e629ea3f98f658bf28acd5be095ac9d4",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 35892,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c91e64fc8adaca61d2e20459127e2c0f79b8df303d9dbe1546371eafd5a054be",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f",
+      "music": null,
+      "path": "stories/2026/10/09/20261009T223426+0800_4004188322930844737",
+      "pk": "4004188322930844737",
+      "published_at_taipei": "2026-10-09T22:34:26+08:00",
+      "published_at_utc": "2026-10-09T14:34:26Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
     }
   },
   "schema_version": 2,
