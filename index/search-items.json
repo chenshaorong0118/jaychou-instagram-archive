@@ -3995,6 +3995,18 @@
       "published_at_taipei": "2026-10-20T08:32:28+08:00",
       "search_text_simplified": "4011737083643058827",
       "year_month": "2026-10"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4012144294798532668",
+      "published_at_taipei": "2026-10-20T18:35:21+08:00",
+      "search_text_simplified": "4012144294798532668",
+      "year_month": "2026-10"
     }
   ],
   "schema_version": 1
