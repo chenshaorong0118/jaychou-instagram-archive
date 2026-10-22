@@ -4043,6 +4043,18 @@
       "published_at_taipei": "2026-10-21T17:01:50+08:00",
       "search_text_simplified": "4012718227876409962",
       "year_month": "2026-10"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4013498972354321890",
+      "published_at_taipei": "2026-10-22T18:52:36+08:00",
+      "search_text_simplified": "4013498972354321890",
+      "year_month": "2026-10"
     }
   ],
   "schema_version": 1
