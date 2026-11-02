@@ -4442,6 +4442,18 @@
     },
     {
       "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4020683542006805256",
+      "published_at_taipei": "2026-11-01T16:47:28+08:00",
+      "search_text_simplified": "4020683542006805256",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
       "has_audio": false,
       "has_image": true,
       "has_video": false,
