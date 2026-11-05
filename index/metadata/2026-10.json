@@ -1475,6 +1475,57 @@
       "text": null,
       "thumbnail_commit": "9b116b7c1845da213a94ac46f97b982f2906d8c0"
     },
+    "4007058260528142057": {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 827783,
+              "duration_ms": 15000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "5f8f8a9d874d84bad8d153793cd5fcefd6b53c5b032d5f6516b9452696f964e3",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 23266,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "0c7379c839094f7938a978f6c06a4d24eb449cc2d16de1945bd98233be1fc959",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "eafbb62c0c578fa7338a2cfc3fe339a3fdc4ba3e",
+      "music": {
+        "artist": "Jay Chou",
+        "start_offset_ms": null,
+        "title": "Sunny Day"
+      },
+      "path": "stories/2026/10/13/20261013T213629+0800_4007058260528142057",
+      "pk": "4007058260528142057",
+      "published_at_taipei": "2026-10-13T21:36:29+08:00",
+      "published_at_utc": "2026-10-13T13:36:29Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "eafbb62c0c578fa7338a2cfc3fe339a3fdc4ba3e"
+    },
     "4007654597161951115": {
       "caption": null,
       "has_audio": false,
