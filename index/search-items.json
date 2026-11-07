@@ -5339,6 +5339,42 @@
       "published_at_taipei": "2026-11-06T22:07:18+08:00",
       "search_text_simplified": "4024468389145443158",
       "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4024855710139353411",
+      "published_at_taipei": "2026-11-07T10:56:50+08:00",
+      "search_text_simplified": "4024855710139353411",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025034184103698768",
+      "published_at_taipei": "2026-11-07T16:51:26+08:00",
+      "search_text_simplified": "4025034184103698768",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025065193423530961",
+      "published_at_taipei": "2026-11-07T17:53:03+08:00",
+      "search_text_simplified": "4025065193423530961",
+      "year_month": "2026-11"
     }
   ],
   "schema_version": 1
