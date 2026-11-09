@@ -5375,6 +5375,54 @@
       "published_at_taipei": "2026-11-07T17:53:03+08:00",
       "search_text_simplified": "4025065193423530961",
       "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025715336485740514",
+      "published_at_taipei": "2026-11-08T15:24:37+08:00",
+      "search_text_simplified": "4025715336485740514",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025722710164480313",
+      "published_at_taipei": "2026-11-08T15:39:22+08:00",
+      "search_text_simplified": "4025722710164480313",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025754515588498243",
+      "published_at_taipei": "2026-11-08T16:42:36+08:00",
+      "search_text_simplified": "4025754515588498243",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4025754707951553254",
+      "published_at_taipei": "2026-11-08T16:42:59+08:00",
+      "search_text_simplified": "4025754707951553254",
+      "year_month": "2026-11"
     }
   ],
   "schema_version": 1
