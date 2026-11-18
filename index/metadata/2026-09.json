@@ -1118,6 +1118,94 @@
       "text": null,
       "thumbnail_commit": "025dd6739583ecd8da7d642c475d856bd824736d"
     },
+    "3982424789113135746": {
+      "caption": "Am I a singer, an actor, or a director?\nYou tell me. 😏\n\nStay tuned for the new MV.",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 214222,
+              "filename": "01-image.jpg",
+              "height": 810,
+              "mime_type": "image/jpeg",
+              "sha256": "63880529fa96f0bc00c98a5da92adda5818f9b1173c8dfd7cc07e9984d494cbb",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 49732,
+              "filename": "01-thumbnail.webp",
+              "height": 393,
+              "mime_type": "image/webp",
+              "sha256": "4a31ae2b20f6dcd54f9e2154aeeef4d54ac3227e1ed0ab8285a00d33301d6d7b",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/09/20260909T215816+0800_3982424789113135746",
+      "pk": "3982424789113135746",
+      "published_at_taipei": "2026-09-09T21:58:16+08:00",
+      "published_at_utc": "2026-09-09T13:58:16Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
+    "3983086603039922937": {
+      "caption": "西西里MV的劇情會是怎樣的呢 是不是跟你們心裡想的一樣呢 明天中午我的YouTube 頻道準時播出囉😎\nTake a guess. Is the story of the new MV what you imagined it would be? 👀\n\nFind out tomorrow at 12 PM on Jay Chou’s YouTube channel. The answer will be revealed. 🎬",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 163998,
+              "filename": "01-image.jpg",
+              "height": 745,
+              "mime_type": "image/jpeg",
+              "sha256": "56e2ffccb4ca4ebd99d6efeb418680fb3099038d885eaba3cacf19532722ac4c",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 37276,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "68664d33da44eacfe39db426dfcdc839e2d5398175efa91103e6ab00fbcc01e9",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/10/20260910T195809+0800_3983086603039922937",
+      "pk": "3983086603039922937",
+      "published_at_taipei": "2026-09-10T19:58:09+08:00",
+      "published_at_utc": "2026-09-10T11:58:09Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
     "3983523546265759327": {
       "caption": null,
       "has_audio": false,
@@ -1967,6 +2055,74 @@
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
     },
+    "3986776196503535650": {
+      "caption": "Just some aesthetic vibes 😎",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1645977,
+              "filename": "01-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "1df9b76f3f32bf5b41707e8de2628fbaf6514b26a8b119595563c873525dd1f1",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 74764,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "b65fa4c413fa4b4d3bc96250bab0d2bc1229cb2460f74ffef0e3bd9d6a04e24e",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1159165,
+              "filename": "02-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "2d23d0a168fb47f428551c5ac62d24390d716e3cc9f44d4b1838366c166d2cf8",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 65726,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "0ebbeb783ff2d78caf46e5a07182499626a64941422ece71581a9a12e2a290c8",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/15/20260915T215939+0800_3986776196503535650",
+      "pk": "3986776196503535650",
+      "published_at_taipei": "2026-09-15T21:59:39+08:00",
+      "published_at_utc": "2026-09-15T13:59:39Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
     "3986778181621213198": {
       "caption": null,
       "has_audio": false,
@@ -2188,6 +2344,50 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
+    },
+    "3987467584437965587": {
+      "caption": "今晚跟我美嗎女士合唱了聽媽媽的話😜",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 126688,
+              "filename": "01-image.jpg",
+              "height": 1164,
+              "mime_type": "image/jpeg",
+              "sha256": "9c5e029ec306ecfae5516880cc51a454f550597ee9cd3b201ebc5579f5a6f13a",
+              "type": "image",
+              "width": 873
+            },
+            {
+              "bytes": 33440,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "af3ec28cab1ae003e3bd696613798d0cc0171e909f2980734cafb5fcdb5fdc28",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/16/20260916T205423+0800_3987467584437965587",
+      "pk": "3987467584437965587",
+      "published_at_taipei": "2026-09-16T20:54:23+08:00",
+      "published_at_utc": "2026-09-16T12:54:23Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
     },
     "3988203978567416249": {
       "caption": null,
@@ -2677,6 +2877,50 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
+    },
+    "3988783623838714170": {
+      "caption": "夕陽無限好 只是六比零 🌅🎾 Won my singles match 6–0 today. 🤣\n\nMy opponent kept saying he needed to think about what went wrong and figure out how to fix it.\n\nHe’d been stressing about it for a while, so I finally had to tell him:\n\n“Bro, stop thinking about it. It’s not your problem… I’m just too good.” 🤣🤣🤣",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 467165,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "59e78fc42bca3150912076806aeeff91cbeb1f38fa55dfe1a993143b8bdece72",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 14850,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "6346bfb9d4fd44703f8b419b6157967ca5c0c9204e3d726359fea2d0fa114b13",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/18/20260918T163137+0800_3988783623838714170",
+      "pk": "3988783623838714170",
+      "published_at_taipei": "2026-09-18T16:31:37+08:00",
+      "published_at_utc": "2026-09-18T08:31:37Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
     },
     "3988881739686859222": {
       "caption": null,
@@ -3494,6 +3738,121 @@
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
     },
+    "3993301032272501801": {
+      "caption": "Day1 南京 兩個多月沒唱 一次唱個夠💪🏻 Haven’t done a concert in over two months. Time to make up for it. 🎤",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 48928062,
+              "duration_ms": 22600,
+              "filename": "01-video.mp4",
+              "height": 1080,
+              "mime_type": "video/mp4",
+              "sha256": "517ad1583a3871703c5fe534bcf0ccac19c8422cdd0ffd70acf732de9d914070",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1916
+            },
+            {
+              "bytes": 61052,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "cc2212798b3766728d77ed5d1d32e96bbecb73507a7f9c254b2aaf95b354c1c2",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/24/20260924T220526+0800_3993301032272501801",
+      "pk": "3993301032272501801",
+      "published_at_taipei": "2026-09-24T22:05:26+08:00",
+      "published_at_utc": "2026-09-24T14:05:26Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
+    "3993406400164488842": {
+      "caption": "Still awake? 🙋‍♂️\nRaise your hand if you’re like me.\nSong requests are open 🎵\n睡不著的跟我一樣舉手  點個歌吧",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1596108,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "1b5a47f5976b909eacb95d0265f65e5f21f475be196117bec0ef64fb4bb4b0c6",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 62300,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "44d78f0e6325d3559412c31ea63139c7460c4758690d7091ae66f1170472cd9a",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 913102,
+              "filename": "02-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "cd9aefb6999815c41c15f604850c70eedf669783fc6799f6e79dded2138795af",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 33640,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "2fc7066dba6ec9861537fb55a124e1e5f4d04992287b415fcc825c8c2e13fb9a",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/25/20260925T013241+0800_3993406400164488842",
+      "pk": "3993406400164488842",
+      "published_at_taipei": "2026-09-25T01:32:41+08:00",
+      "published_at_utc": "2026-09-24T17:32:41Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
     "3993419357007091057": {
       "caption": null,
       "has_audio": true,
@@ -3675,6 +4034,122 @@
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
     },
+    "3994488832443799087": {
+      "caption": "Last night, in a few moments",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 976309,
+              "filename": "01-image.jpg",
+              "height": 2036,
+              "mime_type": "image/jpeg",
+              "sha256": "300b476d2567ef58a39643f490e35d1d08d317ebb753b801f97985c39886a24f",
+              "type": "image",
+              "width": 2500
+            },
+            {
+              "bytes": 102622,
+              "filename": "01-thumbnail.webp",
+              "height": 521,
+              "mime_type": "image/webp",
+              "sha256": "eebfa22c1edea113041e1992ed15907caf0b306b365a830b51b9f8a2cbd9577e",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 677062,
+              "filename": "02-image.jpg",
+              "height": 2264,
+              "mime_type": "image/jpeg",
+              "sha256": "24d6acd652a2305c921040045b4d97cf9e2ea86077fed4c46401d3b0501fae2b",
+              "type": "image",
+              "width": 2779
+            },
+            {
+              "bytes": 52290,
+              "filename": "02-thumbnail.webp",
+              "height": 521,
+              "mime_type": "image/webp",
+              "sha256": "3047d9be9c1e396410dbc5cb08c8e57fcf1b21c4b0dd1a791082d65d20c530ce",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 364627,
+              "filename": "03-image.jpg",
+              "height": 1446,
+              "mime_type": "image/jpeg",
+              "sha256": "cead58bb444951811cf56719f6a8fb6a05a36788e338172c316bbcbc660e31f5",
+              "type": "image",
+              "width": 1776
+            },
+            {
+              "bytes": 66010,
+              "filename": "03-thumbnail.webp",
+              "height": 521,
+              "mime_type": "image/webp",
+              "sha256": "bc4f7787c3dd603dfd146c899bf2034a2da5a411e9fbcd55bb3d1d523d9dc67c",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1223009,
+              "filename": "04-image.jpg",
+              "height": 3320,
+              "mime_type": "image/jpeg",
+              "sha256": "cdfb6baed653e650cb5375bb1b1ae1e9f93cc5decb9f3c63cb12753d646c8d9f",
+              "type": "image",
+              "width": 4076
+            },
+            {
+              "bytes": 43896,
+              "filename": "04-thumbnail.webp",
+              "height": 521,
+              "mime_type": "image/webp",
+              "sha256": "498aa0f0cf52e627718b52a522cb867e8996f32480b4bf4dc926073950fa75e0",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/26/20260926T132317+0800_3994488832443799087",
+      "pk": "3994488832443799087",
+      "published_at_taipei": "2026-09-26T13:23:17+08:00",
+      "published_at_utc": "2026-09-26T05:23:17Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
     "3994616139384860722": {
       "caption": null,
       "has_audio": false,
@@ -3720,6 +4195,80 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "3994750516009863334": {
+      "caption": "Day3南京 唱完那天下雨了 雨也開始飄起 反正中秋節已經過了 你們回家也沒事 我們就唱到雨停為止吧😂🌈",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 24763559,
+              "duration_ms": 14333,
+              "filename": "01-video.mp4",
+              "height": 1078,
+              "mime_type": "video/mp4",
+              "sha256": "9c77ae07335c2678c539b94afbe075fa33f2d25149c7fc8ad9647876c0b5ce92",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1912
+            },
+            {
+              "bytes": 57180,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "36d29b24fe1746dc01c2ebd4126d10c1a998323c10e508c43b2a0dd41e0a543f",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        },
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 39689345,
+              "duration_ms": 23233,
+              "filename": "02-video.mp4",
+              "height": 1078,
+              "mime_type": "video/mp4",
+              "sha256": "1aa873fcd2d3162dc06b9459b8601e21296d032310490f7e1bdd6ab8037867d8",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1912
+            },
+            {
+              "bytes": 54588,
+              "filename": "02-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "1c557f14c093ee39c5c3b22f1aa3b89f727544351f466523bda80de5e0120282",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 2,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/26/20260926T220312+0800_3994750516009863334",
+      "pk": "3994750516009863334",
+      "published_at_taipei": "2026-09-26T22:03:12+08:00",
+      "published_at_utc": "2026-09-26T14:03:12Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
     },
     "3994753448314895819": {
       "caption": null,
@@ -3998,6 +4547,238 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "0c5cb53c8a5ba86eb9bbd0beffa4583c8759802e"
+    },
+    "3996093163085441369": {
+      "caption": "Which vibe speaks to you\n\n喜歡哪一張 🤔",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 906500,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "b3c34fba7d52428436400abf6873218e7ac18c478954e5944fd29674e250706c",
+              "type": "image",
+              "width": 3091
+            },
+            {
+              "bytes": 44474,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "353a78899ada1a31312902ca02eee955c78af97b5d04bc0ab45761667d1ca24a",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 707193,
+              "filename": "02-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "f8689e64664a62076a2f5566ab1491c07664ed7b08f201f9dd63af4d9ae15fc8",
+              "type": "image",
+              "width": 3091
+            },
+            {
+              "bytes": 25682,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "cbf42db1b24270ae63d9223123f717afb4c6b7174a46b40cf778d90745189a62",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 681727,
+              "filename": "03-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "c032ee1009f3c379fb9047db1d23915fbc6d520ffe3792061300b9cded919fe8",
+              "type": "image",
+              "width": 3091
+            },
+            {
+              "bytes": 35728,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "dcb9a2b94173fd55b46ab3a54d8c8547dce7422d59356fa6df532a1bf5eff998",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1217549,
+              "filename": "04-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "e2b3b034d03bfd710e40e4e775aa60a0aaf7146a554a992440007241930a34f3",
+              "type": "image",
+              "width": 3091
+            },
+            {
+              "bytes": 38606,
+              "filename": "04-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "580b71747a1e15b9c4b3b404cacd3db233f4f1b69dd83a693d1fb761d1ea35a9",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1002731,
+              "filename": "05-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "2fd0489dd176b5a5cacc636dca0795e677f026ff70d4cb43928f574220c78c86",
+              "type": "image",
+              "width": 3091
+            },
+            {
+              "bytes": 38566,
+              "filename": "05-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "05ac65b2eb4240621399218396371f0292f829f3050cc3573e07e747f849a84f",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 5,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1650437,
+              "filename": "06-image.jpg",
+              "height": 4071,
+              "mime_type": "image/jpeg",
+              "sha256": "7cd731f05f01ec137135fa7d4655b99bacccea644fced0cf3f2d1bda29219513",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 29208,
+              "filename": "06-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "0cec5f712b99b88c0b642818a4a017fcf8c368df1aca253713ace4f3c20017d3",
+              "type": "thumbnail",
+              "width": 483
+            }
+          ],
+          "index": 6,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/28/20260928T183048+0800_3996093163085441369",
+      "pk": "3996093163085441369",
+      "published_at_taipei": "2026-09-28T18:30:48+08:00",
+      "published_at_utc": "2026-09-28T10:30:48Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
+    },
+    "3996312583569403281": {
+      "caption": "In the summer of 1910, Schiele lived in Krumau. This little town, with its medieval architecture, winding streets, and the Vltava River running through it, became a place he returned to again and again in his work.\n\nThe following year, he painted this piece, inspired by the town hall in the main square.\n\nThe painting has been exhibited several times at the Leopold Museum in Vienna. I was just looking for a photo of the square and suddenly realized… I’ve actually been to this old town before.\n\nThinking about it now, this piece feels even more special to me.",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 119041,
+              "filename": "01-image.jpg",
+              "height": 572,
+              "mime_type": "image/jpeg",
+              "sha256": "24f55c8f9583d78b39c90c8e080fc2576d34aa857708ace9a84e7c6bc3a884b0",
+              "type": "image",
+              "width": 745
+            },
+            {
+              "bytes": 61964,
+              "filename": "01-thumbnail.webp",
+              "height": 491,
+              "mime_type": "image/webp",
+              "sha256": "c0fc744077f2c023d77bcd9134889a59c9f7cd8dc2054f20e13bd7c39a2a97cd",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 22319,
+              "filename": "02-image.jpg",
+              "height": 261,
+              "mime_type": "image/jpeg",
+              "sha256": "c26c44627c1e07258958e122062dfcb05792e41cebc218a2b4212e33823fb69d",
+              "type": "image",
+              "width": 338
+            },
+            {
+              "bytes": 12892,
+              "filename": "02-thumbnail.webp",
+              "height": 261,
+              "mime_type": "image/webp",
+              "sha256": "aa399d2d17214491613243732924940bcc6a799d96359053c35584383ce32e18",
+              "type": "thumbnail",
+              "width": 338
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4",
+      "music": null,
+      "path": "posts/2026/09/29/20260929T014645+0800_3996312583569403281",
+      "pk": "3996312583569403281",
+      "published_at_taipei": "2026-09-29T01:46:45+08:00",
+      "published_at_utc": "2026-09-28T17:46:45Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "89c43761f2e6243f0b626ea38a2e9cda5e6ddcc4"
     },
     "3996314780608252249": {
       "caption": null,
