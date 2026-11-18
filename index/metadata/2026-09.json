@@ -4135,6 +4135,74 @@
       "text": null,
       "thumbnail_commit": "0c5cb53c8a5ba86eb9bbd0beffa4583c8759802e"
     },
+    "3996959864970770246": {
+      "caption": "不要懷疑 這真的是老婆買給我的生日禮物😜 Don’t be fooled, my wife really did get me this for my birthday. 😂😜",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 885325,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "aded19d411b92c3f20989e3cbac9be3c412a9a2527993c0a214c236327f3afa7",
+              "type": "image",
+              "width": 4003
+            },
+            {
+              "bytes": 33864,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "89721f68981b16009acf3ba94893057aed0942125b9b600510f406977f31095b",
+              "type": "thumbnail",
+              "width": 625
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 748019,
+              "filename": "02-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "0acf3b02aff7008f900ae2225dccd8a21e2dee07ea24dbac7b518ffde2080d16",
+              "type": "image",
+              "width": 4004
+            },
+            {
+              "bytes": 30722,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "499d6b7127d3ebc618b2abea14857289286e2246d362aed8207d5d0df15ea44a",
+              "type": "thumbnail",
+              "width": 626
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "451a599da7a46ffb386b0b825e72cb15d2430e07",
+      "music": null,
+      "path": "posts/2026/09/29/20260929T231247+0800_3996959864970770246",
+      "pk": "3996959864970770246",
+      "published_at_taipei": "2026-09-29T23:12:47+08:00",
+      "published_at_utc": "2026-09-29T15:12:47Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "451a599da7a46ffb386b0b825e72cb15d2430e07"
+    },
     "3997481827375716360": {
       "caption": null,
       "has_audio": false,
