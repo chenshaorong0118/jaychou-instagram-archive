@@ -4177,6 +4177,94 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "f42d22d851bc616c86055e030e66d465c511e765"
+    },
+    "4031366133718029246": {
+      "caption": "Quite a large Picasso painting ✌🏻",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1249070,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "5fb1386eebc8be0a73db052c9da89e92252e9356480f2956bb1442f7b194c4b5",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 66180,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "97dfd98b58539a6e48ab7e874e7d2be04b23a1d2460f96c93b72b366549f722a",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "7a09708516ed3b0d129aafc905ba86c6a5748b53",
+      "music": null,
+      "path": "posts/2026/11/16/20261116T103518+0800_4031366133718029246",
+      "pk": "4031366133718029246",
+      "published_at_taipei": "2026-11-16T10:35:18+08:00",
+      "published_at_utc": "2026-11-16T02:35:18Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "7a09708516ed3b0d129aafc905ba86c6a5748b53"
+    },
+    "4032344239387816058": {
+      "caption": "我們收藏的 不只是這些丹麥的老件 而是把那趟丹麥旅程留下的回憶 都帶回了家 We didn’t just bring home these original Danish chairs. We brought home a little piece of our journey through Denmark. \n#denmark",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 583132,
+              "filename": "01-image.jpg",
+              "height": 2912,
+              "mime_type": "image/jpeg",
+              "sha256": "3de5810c1071c6f27c8bb81c54e04f3321ca964d98da6ad14f7f5128faa2805c",
+              "type": "image",
+              "width": 2624
+            },
+            {
+              "bytes": 37126,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "753371573e53b5e6d5ab98872e4d6edc8ab13c20b47ee80af54126ff73e271e1",
+              "type": "thumbnail",
+              "width": 577
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "7a09708516ed3b0d129aafc905ba86c6a5748b53",
+      "music": null,
+      "path": "posts/2026/11/17/20261117T190726+0800_4032344239387816058",
+      "pk": "4032344239387816058",
+      "published_at_taipei": "2026-11-17T19:07:26+08:00",
+      "published_at_utc": "2026-11-17T11:07:26Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "7a09708516ed3b0d129aafc905ba86c6a5748b53"
     }
   },
   "schema_version": 2,
