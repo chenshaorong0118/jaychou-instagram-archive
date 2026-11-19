@@ -6359,6 +6359,42 @@
       "published_at_taipei": "2026-11-17T19:07:26+08:00",
       "search_text_simplified": "我们收藏的 不只是这些丹麦的老件 而是把那趟丹麦旅程留下的回忆 都带回了家 we didn’t just bring home these original danish chairs. we brought home a little piece of our journey through denmark. #denmark 4032344239387816058",
       "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4033794436895038749",
+      "published_at_taipei": "2026-11-19T18:56:26+08:00",
+      "search_text_simplified": "4033794436895038749",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4033828993673455574",
+      "published_at_taipei": "2026-11-19T20:05:09+08:00",
+      "search_text_simplified": "4033828993673455574",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4033829987634935339",
+      "published_at_taipei": "2026-11-19T20:07:08+08:00",
+      "search_text_simplified": "4033829987634935339",
+      "year_month": "2026-11"
     }
   ],
   "schema_version": 1
