@@ -47,6 +47,53 @@
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
     },
+    "3976646575002678822": {
+      "caption": "Country or rock?\nClassical or hip-hop?\nWhy choose?\n\nListen to my music.\nProblem solved. 😎",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 50507746,
+              "duration_ms": 60060,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "a5ba92851bef9c7af98ed04f2d8c5b9a5a46816e75167cc0638e7fa5cf8a6e10",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 33788,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "1163200b01aad6185fa283bdb8f596b2f2e368cffac900e097d93e9269855a14",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/09/01/20260901T223819+0800_3976646575002678822",
+      "pk": "3976646575002678822",
+      "published_at_taipei": "2026-09-01T22:38:19+08:00",
+      "published_at_utc": "2026-09-01T14:38:19Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
     "3977030703103370327": {
       "caption": null,
       "has_audio": false,
@@ -401,6 +448,53 @@
       "text": null,
       "thumbnail_commit": "60cd499ba97bd8471fceb5abe2f0c403e9f6924c"
     },
+    "3977345808487694455": {
+      "caption": "😜 還有幾首",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 58102684,
+              "duration_ms": 60042,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "e81923ebb4dbb752ec57a89efd83b71bda89bb09bcebd2263861ff1f28bbd2f7",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 35484,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "510622f34ace384bc07607a0727adf9d6c2b80a9dd72510e054fd7aadf23528b",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/09/02/20260902T215123+0800_3977345808487694455",
+      "pk": "3977345808487694455",
+      "published_at_taipei": "2026-09-02T21:51:23+08:00",
+      "published_at_utc": "2026-09-02T13:51:23Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
     "3977670141173048976": {
       "caption": null,
       "has_audio": false,
@@ -532,6 +626,74 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "60cd499ba97bd8471fceb5abe2f0c403e9f6924c"
+    },
+    "3978456795358394170": {
+      "caption": "Morning vibes",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1234226,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "1279da5b29f83f8d1e4eff7662bd05a8105680326fe3f0b1c32baf40703f4b2b",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 79220,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c778e3de9417c9115377607ae005d92ebe78ae96ddc6afa7b57b39c71d8c2d63",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 346724,
+              "filename": "02-image.jpg",
+              "height": 1657,
+              "mime_type": "image/jpeg",
+              "sha256": "e654c7cb432efdd85ce837ceda0e447ac430e462a0d776d044e5156df660b89d",
+              "type": "image",
+              "width": 1243
+            },
+            {
+              "bytes": 75778,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "581e4d425939ec041a4fba6f63d0bb00aa04f17feadfe4e85894f8fbda61e9e1",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/09/04/20260904T103029+0800_3978456795358394170",
+      "pk": "3978456795358394170",
+      "published_at_taipei": "2026-09-04T10:30:29+08:00",
+      "published_at_utc": "2026-09-04T02:30:29Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
     "3979639990887879850": {
       "caption": null,

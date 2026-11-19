@@ -3790,6 +3790,53 @@
       "text": null,
       "thumbnail_commit": "83840a1a89e4a7d66d8de400eee6469ca1b1f812"
     },
+    "4027832121178383553": {
+      "caption": "Ho girato il videoclip di “Sicily” in Italia qualche mese fa, e questa canzone ha in realtà un legame speciale con uno dei miei vecchi lavori.\n\nL’ispirazione viene da “In the Name of the Father”, un altro videoclip che avevo girato in Italia più di vent’anni fa. All’epoca, il rap in stile mafioso era qualcosa di piuttosto nuovo. Con questo nuovo album, volevo riprendere quel tipo di atmosfera esotica e continuare a esplorare questo stile musicale a modo mio.\n\nSe tra i miei follower su Instagram ci sono italiani, lasciate pure un commento e fatemi sapere cosa ne pensate della canzone o del videoclip! Mi piacerebbe davvero conoscere le vostre reazioni.\n#sicily #mafia #italy",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 61895940,
+              "duration_ms": 72200,
+              "filename": "01-video.mp4",
+              "height": 1080,
+              "mime_type": "video/mp4",
+              "sha256": "a7f601c6a22f82e74dfb7618e85b3bb6284332dfd970399486a15403aef3a42a",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1916
+            },
+            {
+              "bytes": 16906,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "e2df32e168e1e222cccacb4435fca57f2a121d1b99a46234cc4037608522c4f0",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/11/11/20261111T133415+0800_4027832121178383553",
+      "pk": "4027832121178383553",
+      "published_at_taipei": "2026-11-11T13:34:15+08:00",
+      "published_at_utc": "2026-11-11T05:34:15Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
     "4029289197311564627": {
       "caption": null,
       "has_audio": true,
@@ -4068,6 +4115,77 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "290ecb14f5dd01d729af43fc74b7351af543863b"
+    },
+    "4029593288730441269": {
+      "caption": "21年前的我們在電影裡飆車 如今我們都當爸了 不飆車 改打網球🤣\n21 years ago, we were racing cars in the movie Initial D. 21 years later, we’re playing tennis together instead. No more street racing! 🤣",
+      "has_audio": true,
+      "has_image": true,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 10556559,
+              "duration_ms": 18459,
+              "filename": "01-video.mp4",
+              "height": 1434,
+              "mime_type": "video/mp4",
+              "sha256": "1288940998f8844106a83a595f10cab2646fcaa0599e3072606759f526795a94",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1076
+            },
+            {
+              "bytes": 4496,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "85c3152ae78b7e2e2afabfe87fc00294f9d465274ffa4235adbb381bd8fa11be",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 276338,
+              "filename": "02-image.jpg",
+              "height": 1760,
+              "mime_type": "image/jpeg",
+              "sha256": "82dade3c231d7078fc57cfb409d410ca54b7fb13a690e1ae1c354b19fd45f5d1",
+              "type": "image",
+              "width": 1320
+            },
+            {
+              "bytes": 44260,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c7e48ba437ece08745fd6c659056a391e011584b6101b5cb8b42a35c5ac789a1",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/11/13/20261113T234934+0800_4029593288730441269",
+      "pk": "4029593288730441269",
+      "published_at_taipei": "2026-11-13T23:49:34+08:00",
+      "published_at_utc": "2026-11-13T15:49:34Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
     "4029624610291185591": {
       "caption": null,

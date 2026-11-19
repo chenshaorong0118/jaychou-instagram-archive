@@ -2288,6 +2288,142 @@
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
     },
+    "3965387005718557906": {
+      "caption": "一早我美嗎女士想要幫媽媽化妝 媽媽因為馬上就要出門了 我只好神救援大喊 「我也想要被妳化妝！」果然吸引了我美嗎女士的注意 直接衝進來把我拉到姐姐的房間要我坐好 打開姐姐的小小化妝箱 開始照著她奇怪的步驟幫我化 感覺看到什麼就拿什麼 我就像一個豁出去的的畫布 讓她隨心所欲的創作 在完成作品之前 其實我已經猜到會是什麼樣子 但衝到鏡子前面 我還是忍不住吞進了想罵出來的髒話 這時候我回到了坐位 她問我好看嗎 問了我好幾次 我吱吱嗚嗚的回答「蠻有趣的」她再次逼問「好看嗎」我只好說「好看😅」最後終於畫完 她跟我來到鏡子面前 她跟我說「我美嗎⋯⋯我比較美…」\n#隨便附上一張照片 #我是不會把照片給大家看的",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 160836,
+              "filename": "01-image.jpg",
+              "height": 1600,
+              "mime_type": "image/jpeg",
+              "sha256": "dce286ff9e147d1affdb35f8f63bd6375daab09c1b4899913a6ee76c3364903e",
+              "type": "image",
+              "width": 1200
+            },
+            {
+              "bytes": 35032,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "4accced57ec9d76633cf62d66bbf30d8a97b1122915375b55368b453935fedcb",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/17/20260817T095818+0800_3965387005718557906",
+      "pk": "3965387005718557906",
+      "published_at_taipei": "2026-08-17T09:58:18+08:00",
+      "published_at_utc": "2026-08-17T01:58:18Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
+    "3966131988897949276": {
+      "caption": "When I started playing tennis, everything somehow became about tennis. 🎾",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 239510,
+              "filename": "01-image.jpg",
+              "height": 1600,
+              "mime_type": "image/jpeg",
+              "sha256": "9152a45b11c5afefda1527d06e4304668a768c7af0725d6d54b6bcd5f169af6c",
+              "type": "image",
+              "width": 1280
+            },
+            {
+              "bytes": 29174,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c1659d8e3af36ff11a2fed86cce12ac5a437db728db1e0a1b97d78baba989efd",
+              "type": "thumbnail",
+              "width": 512
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1224652,
+              "filename": "02-image.jpg",
+              "height": 3000,
+              "mime_type": "image/jpeg",
+              "sha256": "3ca39f7c94776781378fd1276bde6417e1ee6d3caeb09b03d59a96b440a53504",
+              "type": "image",
+              "width": 2400
+            },
+            {
+              "bytes": 45178,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "43630d7dafcdaa1345e064a166d2ffb34959d80689b27c4b18993500eedc55c8",
+              "type": "thumbnail",
+              "width": 512
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1302227,
+              "filename": "03-image.jpg",
+              "height": 3000,
+              "mime_type": "image/jpeg",
+              "sha256": "c6265b850a2a59b5d31a2080f95303fe532a0f19a6f574d0a483792096bd99a4",
+              "type": "image",
+              "width": 2400
+            },
+            {
+              "bytes": 54264,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "382ce61e6a1dd37d5b706d5580efc5e6ca5329fbb76932445cb44989ea77236b",
+              "type": "thumbnail",
+              "width": 512
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/18/20260818T102318+0800_3966131988897949276",
+      "pk": "3966131988897949276",
+      "published_at_taipei": "2026-08-18T10:23:18+08:00",
+      "published_at_utc": "2026-08-18T02:23:18Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
     "3966949149316947235": {
       "caption": null,
       "has_audio": true,
@@ -2651,6 +2787,53 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
+    },
+    "3967301775470572428": {
+      "caption": "Quick Style and Jay Chou have been following each other’s creative journeys for a while and we finally got to create something inspired by “SAINT” from his new album «Children of the Sun», now surpassing 3.36 million digital album sales. 🔥\n\nCongratulations, let’s keep inspire each other!",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 35930736,
+              "duration_ms": 62440,
+              "filename": "01-video.mp4",
+              "height": 1080,
+              "mime_type": "video/mp4",
+              "sha256": "049196618dab36f6eb3aa5e51d6efffbc8447539c96888b694ad82be2ea8a5f2",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1440
+            },
+            {
+              "bytes": 17558,
+              "filename": "01-thumbnail.webp",
+              "height": 480,
+              "mime_type": "image/webp",
+              "sha256": "d21e2fb2fe11970ec7c3289517aae822c10bd0d9c895489aaac9d36bdea847d1",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/20/20260820T010944+0800_3967301775470572428",
+      "pk": "3967301775470572428",
+      "published_at_taipei": "2026-08-20T01:09:44+08:00",
+      "published_at_utc": "2026-08-19T17:09:44Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
     "3967420508262302920": {
       "caption": null,
@@ -4154,6 +4337,53 @@
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
     },
+    "3973104683521643449": {
+      "caption": "Just in case you guys forgot I’m actually a musician 😂, let’s take a little trip back to the new album I dropped a few months ago.\n\nI’m gonna post the MVs one by one from now on, since every song has a pretty different vibe.\n\nSo take your time, watch them all… and once you’re done, the new MV is coming 👀🎬\n\nStay tuned! 😎",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 21718698,
+              "duration_ms": 30067,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "afe27b624890915babee8fe6ed199011ee57d52b1f1d4b336efa3d5614659586",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 39216,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "1c51e0fd6e05f5cc8e5a445cd27e375850b33ff5f8bb7e4324a136102054271a",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/28/20260828T011744+0800_3973104683521643449",
+      "pk": "3973104683521643449",
+      "published_at_taipei": "2026-08-28T01:17:44+08:00",
+      "published_at_utc": "2026-08-27T17:17:44Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
     "3973738488243666122": {
       "caption": null,
       "has_audio": true,
@@ -4247,6 +4477,100 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
+    },
+    "3973743133438341680": {
+      "caption": "Just a little reminder… I’m a singer, not a tennis player. 😂🎤🎾\n\nSince you guys seem to be getting confused lately, I’ll be dropping the MVs from my new album one by one.\n\nI’ll keep posting until you’ve seen them all.\n\nAnd just when you think I’m done…\nthe new MV drops. 😎\n\nStay tuned. I’ve still got a few tricks up my sleeve.",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 21431032,
+              "duration_ms": 30000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "660820a8a55b85436fd85e68c483461c6032f5b7a3e9bd4f359cc966039163ba",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 32320,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "090bde4b4c2704c756f6b1b2b59004dd7d7f1f57999d209fb1a8755a5ab94f06",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/28/20260828T222814+0800_3973743133438341680",
+      "pk": "3973743133438341680",
+      "published_at_taipei": "2026-08-28T22:28:14+08:00",
+      "published_at_utc": "2026-08-28T14:28:14Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
+    },
+    "3974426366358421769": {
+      "caption": "Third MV of the “Yes, I’m still a singer” reminder series 😂\n\nA few more throwbacks before I drop the new one.\nYou’re welcome. 😎",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 22934309,
+              "duration_ms": 30000,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "1f95fe1f166aa7be87207be3a9e7f89801c7c613398403d42594c1744b41a717",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 17052,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "dd135cc3f92f1343a5b9691f67bb8436cf311d946a197649b67876f7fc8d0ff3",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/29/20260829T210855+0800_3974426366358421769",
+      "pk": "3974426366358421769",
+      "published_at_taipei": "2026-08-29T21:08:55+08:00",
+      "published_at_utc": "2026-08-29T13:08:55Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
     "3974743142859781339": {
       "caption": null,
@@ -4387,6 +4711,53 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2c56c1824a88ed2af736d58e011155b72f739550"
+    },
+    "3975234580495744754": {
+      "caption": "How many MVs have I posted so far? You guys keep count. 😂\nWhich one’s your favorite?",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 25088327,
+              "duration_ms": 29997,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "7dc0af0bf9951fa4045aadb1e2510cd8bb70e82f69f1e544c80dbcad7fe26ff9",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 11546,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "0f0ae643125f2aae3ed516dcb101409d2393fc76aab7d014aa29145a5f5fadae",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda",
+      "music": null,
+      "path": "posts/2026/08/30/20260830T235312+0800_3975234580495744754",
+      "pk": "3975234580495744754",
+      "published_at_taipei": "2026-08-30T23:53:12+08:00",
+      "published_at_utc": "2026-08-30T15:53:12Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
     "3975642761009147588": {
       "caption": null,
