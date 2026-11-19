@@ -3837,6 +3837,78 @@
       "text": null,
       "thumbnail_commit": "de202b0cf3fab6ecdf41f0c54b10ca1bb9000bda"
     },
+    "4028573109049057146": {
+      "caption": "平常根本不喜歡練球⋯⋯\n現在才明白練球的意義 不在於贏得勝利 而是在於失敗中學習面對自己 \n(雖然我這幾天還沒輸😜）",
+      "has_audio": false,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1581713,
+              "duration_ms": 12267,
+              "filename": "01-video.mp4",
+              "height": 960,
+              "mime_type": "video/mp4",
+              "sha256": "79c4340c548c1e6544bbe6a96dd8ba31fb139b705d5a4afdf81ea13bc782f224",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 720
+            },
+            {
+              "bytes": 26896,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "e6135d149228fac75756a93f98ac43b3520abebec2099d8abfc01d9a0c40c0e0",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2749975,
+              "duration_ms": 23400,
+              "filename": "02-video.mp4",
+              "height": 960,
+              "mime_type": "video/mp4",
+              "sha256": "9701c90738fc5a606c1f677be182cab1da5d77f3392aa03e5ce4b4049e2fad05",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 720
+            },
+            {
+              "bytes": 19000,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "a9b834c5b8de229cd095b524097980da2dead05b405c05609f13ca0bdc47d4f3",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "bccb73d2932bfb00f8308df26a3f1e22d7c7e42f",
+      "music": null,
+      "path": "posts/2026/11/12/20261112T140239+0800_4028573109049057146",
+      "pk": "4028573109049057146",
+      "published_at_taipei": "2026-11-12T14:02:39+08:00",
+      "published_at_utc": "2026-11-12T06:02:39Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "bccb73d2932bfb00f8308df26a3f1e22d7c7e42f"
+    },
     "4029289197311564627": {
       "caption": null,
       "has_audio": true,
