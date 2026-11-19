@@ -693,6 +693,53 @@
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
     },
+    "3999819699013339999": {
+      "caption": "Day 1 in Qingdao. Eight years later, I’m so happy to be back on this stage again✌🏻",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 38317405,
+              "duration_ms": 20033,
+              "filename": "01-video.mp4",
+              "height": 1080,
+              "mime_type": "video/mp4",
+              "sha256": "d549588dc18b1f3bfabe0203375a2ec8f100d3532d2cd57be96939627a188028",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1916
+            },
+            {
+              "bytes": 45780,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "44f0f783f301104652efea5f45502c7e135c51e7a27bbedbaa032e42b6e3c0e9",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "b9197cd39468e77e451c4154c1dce2ecfc05644c",
+      "music": null,
+      "path": "posts/2026/10/03/20261003T215749+0800_3999819699013339999",
+      "pk": "3999819699013339999",
+      "published_at_taipei": "2026-10-03T21:57:49+08:00",
+      "published_at_utc": "2026-10-03T13:57:49Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "b9197cd39468e77e451c4154c1dce2ecfc05644c"
+    },
     "3999829684674356093": {
       "caption": null,
       "has_audio": true,
@@ -878,6 +925,98 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "451a599da7a46ffb386b0b825e72cb15d2430e07"
+    },
+    "4001001873759003782": {
+      "caption": "昨天表演完 我發現愛情海好像可以在piano part當作以後的固定歌單耶 你們覺得呢",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 672018,
+              "filename": "01-image.jpg",
+              "height": 1820,
+              "mime_type": "image/jpeg",
+              "sha256": "2a761e32faeccf4b3ebca5df606097a03a464e10a5a79c8d876dbdc05da9dc6f",
+              "type": "image",
+              "width": 2730
+            },
+            {
+              "bytes": 54662,
+              "filename": "01-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "c366fbba5cb724faca13313596c230c242dfd6909869deae4957d622ea93057e",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 974547,
+              "filename": "02-image.jpg",
+              "height": 2736,
+              "mime_type": "image/jpeg",
+              "sha256": "b271fe54f1a75bfdc5bcfe12814c4737d62f342b42fb571259120f025a36a6d8",
+              "type": "image",
+              "width": 4096
+            },
+            {
+              "bytes": 21894,
+              "filename": "02-thumbnail.webp",
+              "height": 428,
+              "mime_type": "image/webp",
+              "sha256": "20728cc409a17200aff85f15da36fc897bd0717f35b89da8fa540ce70cceff8f",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 790013,
+              "filename": "03-image.jpg",
+              "height": 1820,
+              "mime_type": "image/jpeg",
+              "sha256": "09d7ddd634c876efc071902a4516c39e10aa139798f5eca5247d8a2de0184727",
+              "type": "image",
+              "width": 2730
+            },
+            {
+              "bytes": 69532,
+              "filename": "03-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "beb410b6191c39844e851fcfde8ea8a243e81e2ae13f08159358e44365b0165c",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "b9197cd39468e77e451c4154c1dce2ecfc05644c",
+      "music": null,
+      "path": "posts/2026/10/05/20261005T130332+0800_4001001873759003782",
+      "pk": "4001001873759003782",
+      "published_at_taipei": "2026-10-05T13:03:32+08:00",
+      "published_at_utc": "2026-10-05T05:03:32Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "b9197cd39468e77e451c4154c1dce2ecfc05644c"
     },
     "4001173882924883388": {
       "caption": null,
