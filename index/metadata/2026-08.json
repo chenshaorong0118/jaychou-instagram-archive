@@ -4991,6 +4991,53 @@
       "text": null,
       "thumbnail_commit": "f4de461b2ba9ca97f8aeca67e9855591cb2dba39"
     },
+    "3975710590730409062": {
+      "caption": "A little truffle adventure 🍄🪏\nGood food, fresh air & family time 🤎 @jaychou",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 96708500,
+              "duration_ms": 97780,
+              "filename": "01-video.mp4",
+              "height": 1920,
+              "mime_type": "video/mp4",
+              "sha256": "b39489370ab14e106a65a7e5f4e861bb3057217399438281135bd0bee50ca2db",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1080
+            },
+            {
+              "bytes": 91180,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "5e5d276208eb8bf303160a1456e961aa44a58ebeb5821f4a073c30f04f69247b",
+              "type": "thumbnail",
+              "width": 360
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "0cbb7cccd3d9ff90d2eb77dd7dc9cf4b5a8da419",
+      "music": null,
+      "path": "posts/2026/08/31/20260831T153607+0800_3975710590730409062",
+      "pk": "3975710590730409062",
+      "published_at_taipei": "2026-08-31T15:36:07+08:00",
+      "published_at_utc": "2026-08-31T07:36:07Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "0cbb7cccd3d9ff90d2eb77dd7dc9cf4b5a8da419"
+    },
     "3975735891473976464": {
       "caption": null,
       "has_audio": true,
