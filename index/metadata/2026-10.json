@@ -923,6 +923,53 @@
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
     },
+    "4001285521338550431": {
+      "caption": "Day 3 in Qingdao. So happy to hear so many of my fans know both my old and new songs. It gives me more motivation to keep writing. Let my music continue to grow with my fans.",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 30541467,
+              "duration_ms": 17933,
+              "filename": "01-video.mp4",
+              "height": 1080,
+              "mime_type": "video/mp4",
+              "sha256": "d12426dd4fcc244304937ec20ccf47486fd435b30e5a463c2600bb057e8f7991",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1916
+            },
+            {
+              "bytes": 65590,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "69dd172b67b9d63efad0fc3a2878b25a6345e989f06ecf0526077e6a40af2a44",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/10/05/20261005T222800+0800_4001285521338550431",
+      "pk": "4001285521338550431",
+      "published_at_taipei": "2026-10-05T22:28:00+08:00",
+      "published_at_utc": "2026-10-05T14:28:00Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
+    },
     "4001645900065499028": {
       "caption": null,
       "has_audio": false,
@@ -1012,6 +1059,98 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "33cdd788de844f55b3d6bebcd13f9e6ace6fb21f"
+    },
+    "4001938595783080790": {
+      "caption": "🌟",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1275088,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "6223e47654f6331ecf2863be891c477b7ae703c27abfe1c2045f87a18347120d",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 24482,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c1051f6df96fca8feb8fa56346d711f39b995892e9b81cf36eab7ab310e5afb2",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2650222,
+              "filename": "02-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "767f271b16b7f24c11a5f94f346eca0ea9f80429997870fdc742b77ce1aad951",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 78926,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "25eca8cbed8b90398478042dad9de9235c0fa0b2cac257db54c8abb047831e9e",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1811354,
+              "filename": "03-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "a291b6b4c477a7b33f8d350047d070d983d8d4b1c9678f5aa1cd689edabe31d1",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 58684,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "14642115efac286cfdf4030136d8cd78b7bdccadb8dad00daeba79ff8ce687ca",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/10/06/20261006T200438+0800_4001938595783080790",
+      "pk": "4001938595783080790",
+      "published_at_taipei": "2026-10-06T20:04:38+08:00",
+      "published_at_utc": "2026-10-06T12:04:38Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
     },
     "4001939336157113595": {
       "caption": null,
@@ -2789,6 +2928,218 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "353f618052e1f56beae1aa64cc4b1b31f6c7672c"
+    },
+    "4010367192487132096": {
+      "caption": "I hope my music can keep you company while you’re studying or working in Melbourne. And whenever you get homesick, I hope my songs make you feel a little closer to home. ❤️🎵",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1241146,
+              "filename": "01-image.jpg",
+              "height": 2730,
+              "mime_type": "image/jpeg",
+              "sha256": "9d977c723b0e2a12e3c4ce88220c0b9c7de17361719014e7391a33221c322162",
+              "type": "image",
+              "width": 4096
+            },
+            {
+              "bytes": 44864,
+              "filename": "01-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "cb259a22c183029a26876d59e03da6f2654bd7f07ab2f6e752e43061cd537359",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1011287,
+              "filename": "02-image.jpg",
+              "height": 2730,
+              "mime_type": "image/jpeg",
+              "sha256": "1df2eeefaf6e862b55c7c027f570f479c3d18b2be5df38556a56f181fa6064ed",
+              "type": "image",
+              "width": 4096
+            },
+            {
+              "bytes": 31294,
+              "filename": "02-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "a7a2ab4987326b3a4ea71dcf313fd285abf2ce7339494af0f46747847122da47",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1335467,
+              "filename": "03-image.jpg",
+              "height": 2730,
+              "mime_type": "image/jpeg",
+              "sha256": "0a982481950ce1d8aa7965de7bb0a11dd37b382001e8b3c4e87ac8b5fa77a04b",
+              "type": "image",
+              "width": 4096
+            },
+            {
+              "bytes": 60280,
+              "filename": "03-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "d51365106b9bb9fb5bcdd2fb95d931876f02c4f7b7ccfd15b8d3f2d32bc97461",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 857666,
+              "filename": "04-image.jpg",
+              "height": 2276,
+              "mime_type": "image/jpeg",
+              "sha256": "5e0ed38a516c88481e2e9aa4b75c471e4466ad15f6d3e095aa700c0aab25d5ef",
+              "type": "image",
+              "width": 3414
+            },
+            {
+              "bytes": 32310,
+              "filename": "04-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "7fdf856317ccaf5e36b9264935af310ed9c7ff16cc29d2afe655f0ad1e81c5b9",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 963044,
+              "filename": "05-image.jpg",
+              "height": 2406,
+              "mime_type": "image/jpeg",
+              "sha256": "90126673bf05891a68ebc98c85302b34eaa8e00a725288fd40d0b57e2da3a86e",
+              "type": "image",
+              "width": 3610
+            },
+            {
+              "bytes": 59406,
+              "filename": "05-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "273efc5d0eaff9f5995df324f27793cc375d8c30aea8f2d6117763c3a6a1aff6",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 5,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 332505,
+              "filename": "06-image.jpg",
+              "height": 2276,
+              "mime_type": "image/jpeg",
+              "sha256": "3b607f50f132da5a109b5f8722906f6aaeffef4c8d33b649e97ef83de769fecc",
+              "type": "image",
+              "width": 3414
+            },
+            {
+              "bytes": 12310,
+              "filename": "06-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "c74ea0210c3774bad7ae14ca778319b90a50a8a6b258f9fce874e862819e8bdc",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 6,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1686477,
+              "filename": "07-image.jpg",
+              "height": 2730,
+              "mime_type": "image/jpeg",
+              "sha256": "3ae77dbfb0855a666682968be852212229a35cc76055c62f829e1bb2827981f2",
+              "type": "image",
+              "width": 4096
+            },
+            {
+              "bytes": 48912,
+              "filename": "07-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "51d2ac303ab352919ed2be79336d20c8d57904330e8f222ac853952f2b78efd6",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 7,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1131113,
+              "filename": "08-image.jpg",
+              "height": 2365,
+              "mime_type": "image/jpeg",
+              "sha256": "c55d3922f0c1e101d144d1588067be94ae77a6a6455c3d29d28a3edb75a906a3",
+              "type": "image",
+              "width": 3548
+            },
+            {
+              "bytes": 55576,
+              "filename": "08-thumbnail.webp",
+              "height": 427,
+              "mime_type": "image/webp",
+              "sha256": "3d62889f4d54a1d62a011269247c9cc6e6070f067a75bd4f4e643e7332e34085",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 8,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/10/18/20261018T111045+0800_4010367192487132096",
+      "pk": "4010367192487132096",
+      "published_at_taipei": "2026-10-18T11:10:45+08:00",
+      "published_at_utc": "2026-10-18T03:10:45Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
     },
     "4010576614098112405": {
       "caption": null,
@@ -5080,6 +5431,50 @@
       "text": null,
       "thumbnail_commit": "ec81af4c3b4a5940ba8fd186bfcf751d7c8d5f54"
     },
+    "4018489178291222517": {
+      "caption": "Today, I was sitting by an outdoor tennis court when a few cute little Aussie kids, probably six or seven, in their school uniforms started whispering, “Jay Chou?”\n\nI looked at them curiously, and they asked, “Did you play in the One Point Slam at the Australian Open?” 😂\n\nAfter taking a few photos with them, I started wondering… did they even know I’m actually a singer? 😆😆😆",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1619732,
+              "filename": "01-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "f0b5fe792d47c9078e889344548db491c890fb41b7fee1ca214d11bf7e50498b",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 85440,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "eb0270d5d661412c8d34687e263da010e7b72c209140abb7025e4ef14b07767a",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/10/29/20261029T161824+0800_4018489178291222517",
+      "pk": "4018489178291222517",
+      "published_at_taipei": "2026-10-29T16:18:24+08:00",
+      "published_at_utc": "2026-10-29T08:18:24Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
+    },
     "4019220609557020911": {
       "caption": null,
       "has_audio": true,
@@ -5126,6 +5521,50 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "ec81af4c3b4a5940ba8fd186bfcf751d7c8d5f54"
+    },
+    "4019359690475412953": {
+      "caption": "Over a century of brushstrokes, paired with a new wooden frame, bringing the colours to life all over again. That‘s why I love changing the frames on so many pieces in my collection.",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 167286,
+              "filename": "01-image.jpg",
+              "height": 1536,
+              "mime_type": "image/jpeg",
+              "sha256": "9a73b8670c133c2e3829d1281ad156dc250875824c59e5ca1e0e19d5ed39494d",
+              "type": "image",
+              "width": 1168
+            },
+            {
+              "bytes": 31976,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "ccca81c827397e764a5d137e885f7ae49a20d63ede0a2232b03b9faa37b3771b",
+              "type": "thumbnail",
+              "width": 487
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/10/30/20261030T212218+0800_4019359690475412953",
+      "pk": "4019359690475412953",
+      "published_at_taipei": "2026-10-30T21:22:18+08:00",
+      "published_at_utc": "2026-10-30T13:22:18Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
     },
     "4019713456207000963": {
       "caption": null,

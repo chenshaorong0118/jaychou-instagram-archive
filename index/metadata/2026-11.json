@@ -726,6 +726,146 @@
       "text": null,
       "thumbnail_commit": "6736406ab3fcaa88ffc70db6c1298dfe21045dfe"
     },
+    "4023025756460524676": {
+      "caption": "As soon as I arrived in Sydney today, someone said to me, “Thank you for bringing the sunshine with you!” I was genuinely surprised and delighted. 😂☀️\n\nI’m here a little ahead of my concert at ENGIE Stadium on November 21, taking some time to soak up the city’s rhythm, enjoy the scenery, and leave a few footprints along the way. \n#sydney",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 322438,
+              "filename": "01-image.jpg",
+              "height": 1600,
+              "mime_type": "image/jpeg",
+              "sha256": "66e934a38aeb9ce715044972ec1561219179e817d7cbdbbaeb0a85504e60f94d",
+              "type": "image",
+              "width": 1200
+            },
+            {
+              "bytes": 72690,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "d4d57398129e3215b17c1adf45e7625e1a0643c2f0c2a5d42675bfe2e0e7dc74",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2618050,
+              "filename": "02-image.jpg",
+              "height": 4095,
+              "mime_type": "image/jpeg",
+              "sha256": "b59ecd6f88f89d163c9ef2b782242173305d7c0f2639aa901f226eb5448d1fcf",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 135746,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "301594e8fc417648b1d788f68fa5a4ad3d07589beee704ecc0dea9f03a310c0a",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 967068,
+              "filename": "03-image.jpg",
+              "height": 3840,
+              "mime_type": "image/jpeg",
+              "sha256": "2d67b64c1d7165c5480829b7b03591411ab36c91e56165c51a10d3c870fda37a",
+              "type": "image",
+              "width": 2880
+            },
+            {
+              "bytes": 43758,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "ce252fe6769bda1d3e2b7afffd772d20923b9e374d4d5b243a1eca74f895dd39",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 882695,
+              "filename": "04-image.jpg",
+              "height": 2245,
+              "mime_type": "image/jpeg",
+              "sha256": "6d69563f61d408b290d1a318967238c189ce0bf03fd036f43e0dbd7523265bda",
+              "type": "image",
+              "width": 1684
+            },
+            {
+              "bytes": 94334,
+              "filename": "04-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "2b76be72b5f163e117b619634a62b7dedfb7664a4fc8362b63ee301b9cc04eba",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 322264,
+              "filename": "05-image.jpg",
+              "height": 1600,
+              "mime_type": "image/jpeg",
+              "sha256": "f4491ccc055aa5bec324ef1a9d4f4b9e235f15144d484d2b39165fd0e4d2f1b2",
+              "type": "image",
+              "width": 1200
+            },
+            {
+              "bytes": 72944,
+              "filename": "05-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c784668e80ed9b0b7f206a42974627f51c8f0039b83b9c4edce5c9e714442739",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 5,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/11/04/20261104T222104+0800_4023025756460524676",
+      "pk": "4023025756460524676",
+      "published_at_taipei": "2026-11-04T22:21:04+08:00",
+      "published_at_utc": "2026-11-04T14:21:04Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
+    },
     "4023315351647289013": {
       "caption": null,
       "has_audio": false,
@@ -2891,6 +3031,194 @@
       "text": null,
       "thumbnail_commit": "35a46a6120c0840fb0e942b12a14d1957367e5dc"
     },
+    "4024440389075416499": {
+      "caption": "Visited a few different cafés and museums today. Such a fulfilling day! Any other places you’d recommend checking out while I’m in Sydney? 😊 \n#surryhills #doublebay #sydney",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 868725,
+              "filename": "01-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "bbd0744e7ef89c18b3c7a69f290b4b6f7149c75f7c9f1474cd6901ec41305bb8",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 58830,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "a9942c3952aa5d44c77132cdf4f61df8088cd9b2fc8cdffd3cd58629255ce0a0",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 656539,
+              "filename": "02-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "e0cbbff6a4f2dcd03cc0292fccaa42f69c7177429af48ea2dbfc71840fce6c97",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 33182,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "131766d405a900a252d556ca11de84ff211df29ee5888495b13a0f042a0a5060",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2181539,
+              "filename": "03-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "9ca502e4761bfbac3225ab1612233d3fc56ff0c8ea2880c1334e5640e31b7a78",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 85876,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "e8e2a3cf5980c9b0bd3de8268aa2da622b962aa045256e7f78ef9463494ead73",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 781203,
+              "filename": "04-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "0e10866b029e2572106bc85ae2347303f37e9ae6c8b9bc946316ade1be93a66c",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 45192,
+              "filename": "04-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "10978ecb9145596774d9071e61c312f21e6748a7f3f3aeca356486b8c95cc33f",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 858430,
+              "filename": "05-image.jpg",
+              "height": 3820,
+              "mime_type": "image/jpeg",
+              "sha256": "b02651a8bd04800274c8e038e3ea92d5f577812aacc2c0bb13eb6ae6e91711ee",
+              "type": "image",
+              "width": 2865
+            },
+            {
+              "bytes": 37078,
+              "filename": "05-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "05a447bc5a73057304685a80513aa8518176e93da7c393fa66bf64aefac17383",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 5,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 1317843,
+              "filename": "06-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "175dce6db8dd98b9449e77acc4f50bb244c0c4806e1f70cfa4ca06db307603c8",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 51468,
+              "filename": "06-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "a407f86ad8b0a5a66345a7685586d6eeb3e83792d092ed0e11a38814080e4104",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 6,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2325085,
+              "filename": "07-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "1bdca8ae854af48cdc39b96219bf2cc30ba5de39e22802e38e31908cd29f67f8",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 86878,
+              "filename": "07-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "6c4f4b488e268449f597b0cdd903e9e7024fa2b6f966427b451780537f01b914",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 7,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/11/06/20261106T211141+0800_4024440389075416499",
+      "pk": "4024440389075416499",
+      "published_at_taipei": "2026-11-06T21:11:41+08:00",
+      "published_at_utc": "2026-11-06T13:11:41Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
+    },
     "4024468389145443158": {
       "caption": null,
       "has_audio": false,
@@ -3163,6 +3491,122 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "674a7a490adf0b91e7cd4141cbe640e5970946ff"
+    },
+    "4025752370344618612": {
+      "caption": "New custom concert pants just dropped! 🐆🔥 Sydney, November 21. \n#chromehearts",
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "bytes": 1618579,
+              "filename": "01-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "abdb2956d91e7c04e2e592921a803ed118631453ccfb52f8ea4a8a53f69bbb94",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 74662,
+              "filename": "01-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "ded0700ad265f3248d4753146e87bdb6aad7720e66558a6cf0e9eb0dbf8ddd6c",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 1,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2203929,
+              "filename": "02-image.jpg",
+              "height": 4032,
+              "mime_type": "image/jpeg",
+              "sha256": "966760b5e81615355fc14c7d999e73ba26b916959e501b9b13d517afdc9e981b",
+              "type": "image",
+              "width": 3024
+            },
+            {
+              "bytes": 109420,
+              "filename": "02-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "b319d0d80b34777b0a060d5888ebfec6de4c32515f1bce14a4f0e0c61de36e79",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 2,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2510577,
+              "filename": "03-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "ae5930e729cebe6b47f52b538e11f886d6163e7d3cdac8ec73a2dd2ddcfa1e9d",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 129694,
+              "filename": "03-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c556e17821ae3471aa22940ccffae08e80ee9669fdf07c40fee907806ea18fac",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 3,
+          "kind": "image"
+        },
+        {
+          "assets": [
+            {
+              "bytes": 2625213,
+              "filename": "04-image.jpg",
+              "height": 4096,
+              "mime_type": "image/jpeg",
+              "sha256": "5c69c4c106c1c0d24c5b50b28fe18a9ddd32fd1cbc0d1d931db29fcffb417184",
+              "type": "image",
+              "width": 3072
+            },
+            {
+              "bytes": 113032,
+              "filename": "04-thumbnail.webp",
+              "height": 640,
+              "mime_type": "image/webp",
+              "sha256": "c7137e3fa402e3e0a999b5b63c5fc70305105f4cb3ec95404558d69147e84f96",
+              "type": "thumbnail",
+              "width": 480
+            }
+          ],
+          "index": 4,
+          "kind": "image"
+        }
+      ],
+      "media_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb",
+      "music": null,
+      "path": "posts/2026/11/08/20261108T163821+0800_4025752370344618612",
+      "pk": "4025752370344618612",
+      "published_at_taipei": "2026-11-08T16:38:21+08:00",
+      "published_at_utc": "2026-11-08T08:38:21Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "c23281761d5a51ebd5455f1f0ac65a24f8febeeb"
     },
     "4025754515588498243": {
       "caption": null,
