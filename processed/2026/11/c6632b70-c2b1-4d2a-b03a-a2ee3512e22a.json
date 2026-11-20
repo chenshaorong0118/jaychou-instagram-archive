@@ -1,0 +1,11 @@
+{
+  "batch_id": "c6632b70-c2b1-4d2a-b03a-a2ee3512e22a",
+  "batch_sha256": "7f27d7c0c34f1f9a2a056478c3310bc701d57a694bed582ddf9f85c83017a88f",
+  "item_pks": [
+    "4033847783610082302"
+  ],
+  "media_commit": "934215a390a82856d1e8e5b300e8948c7bc724dc",
+  "processed_at_utc": "2026-11-20T00:26:37Z",
+  "schema_version": 1,
+  "status": "processed"
+}
