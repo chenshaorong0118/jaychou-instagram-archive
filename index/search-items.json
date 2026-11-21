@@ -6455,6 +6455,78 @@
       "published_at_taipei": "2026-11-20T18:14:36+08:00",
       "search_text_simplified": "4034498128685835310",
       "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4034982361510557363",
+      "published_at_taipei": "2026-11-21T10:16:41+08:00",
+      "search_text_simplified": "4034982361510557363",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4034983758448626771",
+      "published_at_taipei": "2026-11-21T10:19:28+08:00",
+      "search_text_simplified": "4034983758448626771",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4034984161512794518",
+      "published_at_taipei": "2026-11-21T10:20:16+08:00",
+      "search_text_simplified": "4034984161512794518",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4035035136286504445",
+      "published_at_taipei": "2026-11-21T12:01:33+08:00",
+      "search_text_simplified": "4035035136286504445",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4035035343417978297",
+      "published_at_taipei": "2026-11-21T12:01:57+08:00",
+      "search_text_simplified": "4035035343417978297",
+      "year_month": "2026-11"
+    },
+    {
+      "caption": null,
+      "has_audio": false,
+      "has_image": true,
+      "has_video": false,
+      "item_type": "story",
+      "media_count": 1,
+      "pk": "4035129938046378196",
+      "published_at_taipei": "2026-11-21T15:09:54+08:00",
+      "search_text_simplified": "4035129938046378196",
+      "year_month": "2026-11"
     }
   ],
   "schema_version": 1
