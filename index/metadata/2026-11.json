@@ -8000,6 +8000,53 @@
       "shared_post": null,
       "text": null,
       "thumbnail_commit": "2d53a96ed1d079e17e2098dc30cc06f7c62fb737"
+    },
+    "4039551078991002239": {
+      "caption": "試探兄弟的脾氣 就是請他來上節目 周遊記明天晚上22:00 記得收看喔 Testing my brother’s patience? Just invite him to be on the show. 🤣\n\nJ-Style Trip premieres tomorrow night at 10 PM! Don’t forget to tune in!  @j.styletrip 😉 #jstyletrip #周遊記",
+      "has_audio": true,
+      "has_image": false,
+      "has_video": true,
+      "item_type": "post",
+      "media": [
+        {
+          "assets": [
+            {
+              "audio_codec": "aac",
+              "bytes": 15525393,
+              "duration_ms": 38800,
+              "filename": "01-video.mp4",
+              "height": 720,
+              "mime_type": "video/mp4",
+              "sha256": "114747424cf9af7328346a2045b0110ee2e703189574414862b75ad04a600daa",
+              "type": "video",
+              "video_codec": "h264",
+              "width": 1276
+            },
+            {
+              "bytes": 30788,
+              "filename": "01-thumbnail.webp",
+              "height": 361,
+              "mime_type": "image/webp",
+              "sha256": "2cb61173c955f73dd2009d98902eae85f0dad66c11a728125a6411445c89a032",
+              "type": "thumbnail",
+              "width": 640
+            }
+          ],
+          "index": 1,
+          "kind": "video"
+        }
+      ],
+      "media_commit": "da25be5218a384ea9abc55b2f50abc471c41aeb1",
+      "music": null,
+      "path": "posts/2026/11/27/20261127T173931+0800_4039551078991002239",
+      "pk": "4039551078991002239",
+      "published_at_taipei": "2026-11-27T17:39:31+08:00",
+      "published_at_utc": "2026-11-27T09:39:31Z",
+      "repository": "chenshaorong0118/jaychou-instagram-archive-media-0001",
+      "schema_version": 2,
+      "shared_post": null,
+      "text": null,
+      "thumbnail_commit": "da25be5218a384ea9abc55b2f50abc471c41aeb1"
     }
   },
   "schema_version": 2,
